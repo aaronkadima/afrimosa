@@ -1,7 +1,8 @@
 # Plataforma AfriMosa TV
 
-Site público do canal e área de gestão, num só repositório, hospedado de graça no **GitHub Pages**.
-Não precisa de servidor nem de banco de dados: tudo fica no arquivo `data/canal.json`.
+> **🔒 Atenção — proteção por senha:** foi implementado o servidor `server.js` com senhas separadas para o site e o painel. Essa autenticação **só funciona em uma hospedagem Node.js com HTTPS**; o GitHub Pages não executa o servidor e continuará expondo os arquivos publicados. Antes de considerar o site protegido, torne o repositório privado, despublique o Pages antigo e implante o servidor em um provedor adequado. Consulte [SECURITY.md](SECURITY.md) para o procedimento completo.
+
+Site do canal e área de gestão no mesmo repositório. A versão com acesso por senha precisa de um servidor Node.js com HTTPS. Os dados continuam no arquivo `data/canal.json`.
 
 ```
 afrimosa-plataforma/
@@ -11,26 +12,16 @@ afrimosa-plataforma/
 └── data/canal.json     ← todos os dados (gerado pelo programa + suas edições)
 ```
 
-## 1. Código instalado e publicação do site
+## 1. Publicar no GitHub (uma vez)
 
-O código-fonte completo já está instalado na branch **main** de
-https://github.com/aaronkadima/afrimosa, com o site público, o painel de gestão,
-os recursos visuais e `data/canal.json`.
+1. Entre em github.com → **New repository** → nome `afrimosa-plataforma` → **Public** → *Create repository*.
+2. Na página do repositório, clique em **uploading an existing file** e arraste **todo o conteúdo** desta pasta
+   (index.html, admin, assets, data, README.md, .nojekyll) → *Commit changes*.
+3. Vá em **Settings → Pages** → *Source: Deploy from a branch* → *Branch: main* e pasta */ (root)* → *Save*.
+4. Em 1 a 2 minutos o site fica em `https://SEU-USUARIO.github.io/afrimosa-plataforma/`
+   e a gestão em `https://SEU-USUARIO.github.io/afrimosa-plataforma/admin/`.
 
-Para ativar a hospedagem gratuita **GitHub Pages**, se ainda não estiver habilitada:
-
-1. Abra **Settings → Pages** no repositório.
-2. Em **Build and deployment**, escolha **Deploy from a branch**.
-3. Selecione a branch **main** e a pasta **/ (root)**, depois **Save**.
-
-Endereços previstos após o Pages estar ativo:
-
-- Site: https://aaronkadima.github.io/afrimosa/
-- Gestão: https://aaronkadima.github.io/afrimosa/admin/
-
-> O painel é acessível publicamente. Para gravar os dados diretamente no repositório,
-> utilize um token fine-grained com permissão Contents: Read and write, restrito a este repositório.
-> Nunca publique credenciais em `data/canal.json`.
+Se preferir pedir ajuda ao ChatGPT ou a outro assistente, peça só estes passos; não é preciso mudar o código.
 
 ## 2. Atualizar os dados a partir do programa
 
@@ -61,7 +52,7 @@ use o `canal.json` mais recente como destino, para nada se perder.
 
 ## Segurança
 
-- O repositório e o site são públicos: **qualquer pessoa pode ler o `canal.json`**. Prompts, roteiros e
+- A hospedagem GitHub Pages antiga é pública e não fornece proteção por senha: **qualquer pessoa pode ler o `canal.json`**. Prompts, roteiros e
   agenda podem ficar lá; **chave de transmissão, senhas, client_secret e tokens do YouTube nunca**.
 - A área de gestão não é indexada pelo Google (`noindex`), mas não é secreta. Só quem tem o token
   consegue gravar alterações no repositório.
