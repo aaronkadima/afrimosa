@@ -11,16 +11,26 @@ afrimosa-plataforma/
 └── data/canal.json     ← todos os dados (gerado pelo programa + suas edições)
 ```
 
-## 1. Publicar no GitHub (uma vez)
+## 1. Código instalado e publicação do site
 
-1. Use o repositório existente: https://github.com/aaronkadima/afrimosa.
-2. Na página do repositório, clique em **uploading an existing file** e arraste **todo o conteúdo** desta pasta (sem a pasta externa `afrimosa-plataforma`)
-   (index.html, admin, assets, data, README.md, .nojekyll) → *Commit changes*.
-3. Vá em **Settings → Pages** → *Source: Deploy from a branch* → *Branch: main* e pasta */ (root)* → *Save*.
-4. Em 1 a 2 minutos o site fica em `https://aaronkadima.github.io/afrimosa/`
-   e a gestão em `https://aaronkadima.github.io/afrimosa/admin/`.
+O código-fonte completo já está instalado na branch **main** de
+https://github.com/aaronkadima/afrimosa, com o site público, o painel de gestão,
+os recursos visuais e `data/canal.json`.
 
-Se preferir pedir ajuda ao ChatGPT ou a outro assistente, peça só estes passos; não é preciso mudar o código.
+Para ativar a hospedagem gratuita **GitHub Pages**, se ainda não estiver habilitada:
+
+1. Abra **Settings → Pages** no repositório.
+2. Em **Build and deployment**, escolha **Deploy from a branch**.
+3. Selecione a branch **main** e a pasta **/ (root)**, depois **Save**.
+
+Endereços previstos após o Pages estar ativo:
+
+- Site: https://aaronkadima.github.io/afrimosa/
+- Gestão: https://aaronkadima.github.io/afrimosa/admin/
+
+> O painel é acessível publicamente. Para gravar os dados diretamente no repositório,
+> utilize um token fine-grained com permissão Contents: Read and write, restrito a este repositório.
+> Nunca publique credenciais em `data/canal.json`.
 
 ## 2. Atualizar os dados a partir do programa
 
