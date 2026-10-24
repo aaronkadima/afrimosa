@@ -1,0 +1,73 @@
+/* AfriMosa TV — identidade visual compartilhada (site público e gestão) */
+:root {
+  --carvao: #2B2120;
+  --carvao-2: #362a28;
+  --carvao-3: #514746;
+  --linha: rgba(245, 223, 140, 0.14);
+  --amarelo: #FBAF29;
+  --vermelho: #C13F27;
+  --vinho: #6D0F19;
+  --laranja: #E77F33;
+  --marrom: #925E3D;
+  --creme: #F5DF8C;
+  --ocre: #CF9D55;
+  --branco: #FFF8E8;
+  --texto: #F3EAD9;
+  --texto-2: #CFC3B0;
+  --ok: #6FBF73;
+  --raio: 14px;
+  --sombra: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --titulo: "Baloo 2", system-ui, sans-serif;
+  --corpo: "Montserrat", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--carvao) url("kuba.jpg") center / 900px repeat fixed;
+  color: var(--texto);
+  font: 500 16px/1.6 var(--corpo);
+  -webkit-font-smoothing: antialiased;
+}
+body::before {               /* deixa a textura bem discreta */
+  content: "";
+  position: fixed; inset: 0;
+  background: rgba(43, 33, 32, 0.82);
+  z-index: -1;
+}
+a { color: var(--amarelo); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; display: block; }
+h1, h2, h3, h4 { font-family: var(--titulo); font-weight: 800; line-height: 1.12; margin: 0 0 .4em; color: var(--branco); }
+h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); }
+h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+h3 { font-size: 1.25rem; }
+p { margin: 0 0 1em; }
+.fio { width: 56px; height: 4px; background: var(--amarelo); border-radius: 2px; margin: 0 0 18px; }
+.rotulo { font: 700 .78rem/1 var(--corpo); letter-spacing: .12em; text-transform: uppercase; color: var(--amarelo); }
+.pilula {
+  display: inline-block; padding: .38em .9em; border-radius: 999px;
+  font: 800 .72rem/1 var(--corpo); letter-spacing: .08em; text-transform: uppercase;
+  background: var(--vermelho); color: var(--branco);
+}
+.muted { color: var(--texto-2); }
+.cartao {
+  background: rgba(54, 42, 40, 0.92);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+  padding: 20px;
+}
+.botao {
+  display: inline-flex; align-items: center; gap: .5em; cursor: pointer;
+  padding: .7em 1.2em; border-radius: 999px; border: 0;
+  background: var(--amarelo); color: var(--carvao);
+  font: 800 .9rem/1 var(--corpo);
+}
+.botao:hover { filter: brightness(1.06); text-decoration: none; }
+.botao.sec { background: transparent; color: var(--creme); border: 1px solid var(--linha); }
+.botao.perigo { background: var(--vermelho); color: var(--branco); }
+.botao.peq { padding: .45em .8em; font-size: .8rem; }
+.grade-auto { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.container { width: min(1180px, 100% - 32px); margin-inline: auto; }
+@media (max-width: 640px) { body { font-size: 15px; } }

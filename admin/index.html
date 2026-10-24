@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestão · AfriMosa TV</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="../assets/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/base.css">
+  <link rel="stylesheet" href="../assets/admin.css">
+</head>
+<body class="admin">
+  <aside class="lateral">
+    <a class="marca" href="../index.html" title="Ver o site"><img src="../assets/logo_fundo_escuro.png" alt="AfriMosa TV"></a>
+    <span class="rotulo sub">Gestão do canal</span>
+    <nav id="abas">
+      <button data-aba="painel" class="ativa">Painel</button>
+      <button data-aba="conteudos">Conteúdos</button>
+      <button data-aba="agenda">Agenda</button>
+      <button data-aba="prompts">Prompts</button>
+      <button data-aba="grade">Grade e quadros</button>
+      <button data-aba="metas">Metas e números</button>
+      <button data-aba="manual">Manual do gestor</button>
+      <button data-aba="config">Configurações</button>
+    </nav>
+    <div class="estado" id="estado"></div>
+  </aside>
+
+  <main class="principal">
+    <div class="aviso-rascunho" id="aviso-rascunho" hidden></div>
+    <section id="aba-painel" class="aba"></section>
+    <section id="aba-conteudos" class="aba" hidden></section>
+    <section id="aba-agenda" class="aba" hidden></section>
+    <section id="aba-prompts" class="aba" hidden></section>
+    <section id="aba-grade" class="aba" hidden></section>
+    <section id="aba-metas" class="aba" hidden></section>
+    <section id="aba-manual" class="aba" hidden></section>
+    <section id="aba-config" class="aba" hidden></section>
+  </main>
+
+  <dialog id="modal"><form method="dialog" id="modal-corpo"></form></dialog>
+  <div id="toast" class="toast" hidden></div>
+  <script src="../assets/admin.js"></script>
+</body>
+</html>

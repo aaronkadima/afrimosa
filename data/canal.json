@@ -1,0 +1,5452 @@
+{
+ "versao": 1,
+ "atualizado": "2026-10-24T00:10:18",
+ "canal": {
+  "nome": "AfriMosa TV",
+  "slogan": "África e Brasil, culturas que se encontram.",
+  "estreia": "2026-10-24T20:00"
+ },
+ "grade": {
+  "faixas": [
+   {
+    "nome": "Soukous da Madrugada",
+    "inicio": 0,
+    "fim": 6,
+    "cor": "#2B1A1C",
+    "quadros": [
+     "Rumba Nova",
+     "Canto Tradicional",
+     "Música Creative Commons",
+     "Contos da Roda"
+    ]
+   },
+   {
+    "nome": "Despertar Rumba",
+    "inicio": 6,
+    "fim": 9,
+    "cor": "#E77F33",
+    "quadros": [
+     "Rumba Nova",
+     "Música Creative Commons",
+     "A Lição da Canção",
+     "Insólitos da África"
+    ]
+   },
+   {
+    "nome": "Kiosque Afrique",
+    "inicio": 9,
+    "fim": 12,
+    "cor": "#514746",
+    "quadros": [
+     "Rumba Nova",
+     "Contos da Roda",
+     "Música Creative Commons",
+     "Insólitos da África"
+    ]
+   },
+   {
+    "nome": "A Lição da Canção",
+    "inicio": 12,
+    "fim": 15,
+    "cor": "#CF9D55",
+    "quadros": [
+     "A Lição da Canção",
+     "Rumba Nova",
+     "Canto Tradicional"
+    ]
+   },
+   {
+    "nome": "Contos da Roda",
+    "inicio": 15,
+    "fim": 18,
+    "cor": "#6D0F19",
+    "quadros": [
+     "Contos da Roda",
+     "Estante Africana",
+     "Rumba Nova",
+     "Canto Tradicional"
+    ]
+   },
+   {
+    "nome": "Insólitos da África",
+    "inicio": 18,
+    "fim": 20,
+    "cor": "#C13F27",
+    "quadros": [
+     "Insólitos da África",
+     "Rumba Nova",
+     "Música Creative Commons"
+    ]
+   },
+   {
+    "nome": "Grandes Lendas",
+    "inicio": 20,
+    "fim": 22,
+    "cor": "#925E3D",
+    "quadros": [
+     "Grandes Lendas",
+     "Rumba Nova"
+    ]
+   },
+   {
+    "nome": "Rumba de Salão",
+    "inicio": 22,
+    "fim": 24,
+    "cor": "#3B2A22",
+    "quadros": [
+     "Rumba Nova",
+     "Canto Tradicional",
+     "Música Creative Commons"
+    ]
+   }
+  ],
+  "quadros": [
+   {
+    "id": "rumba_nova",
+    "nome": "Rumba Nova",
+    "tipo": "musica",
+    "no_acervo": 0
+   },
+   {
+    "id": "tradicional",
+    "nome": "Canto Tradicional",
+    "tipo": "musica",
+    "no_acervo": 0
+   },
+   {
+    "id": "cc",
+    "nome": "Música Creative Commons",
+    "tipo": "musica",
+    "no_acervo": 0
+   },
+   {
+    "id": "licao",
+    "nome": "A Lição da Canção",
+    "tipo": "fala",
+    "no_acervo": 0
+   },
+   {
+    "id": "lendas",
+    "nome": "Grandes Lendas",
+    "tipo": "fala",
+    "no_acervo": 0
+   },
+   {
+    "id": "conto",
+    "nome": "Contos da Roda",
+    "tipo": "fala",
+    "no_acervo": 0
+   },
+   {
+    "id": "estante",
+    "nome": "Estante Africana",
+    "tipo": "fala",
+    "no_acervo": 0
+   },
+   {
+    "id": "kiosque",
+    "nome": "Kiosque Afrique",
+    "tipo": "fala",
+    "no_acervo": 0
+   },
+   {
+    "id": "insolito",
+    "nome": "Insólitos da África",
+    "tipo": "fala",
+    "no_acervo": 0
+   },
+   {
+    "id": "proverbio",
+    "nome": "Provérbio do Dia",
+    "tipo": "intervalo",
+    "no_acervo": 0
+   },
+   {
+    "id": "voce_sabia",
+    "nome": "Você sabia?",
+    "tipo": "intervalo",
+    "no_acervo": 0
+   },
+   {
+    "id": "autoral",
+    "nome": "Música Autoral",
+    "tipo": "musica",
+    "no_acervo": 0
+   },
+   {
+    "id": "reportagem",
+    "nome": "Mini-reportagem",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "top10",
+    "nome": "Top 10 AfriMosa",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "lingua",
+    "nome": "Línguas da África",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "mixtape",
+    "nome": "Mixtape AfriMosa",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "clima",
+    "nome": "O tempo agora",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "noticias",
+    "nome": "Giro de notícias",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "programacao",
+    "nome": "Programação",
+    "tipo": "especial",
+    "no_acervo": 0
+   },
+   {
+    "id": "estreia",
+    "nome": "Estreia AfriMosa TV",
+    "tipo": "especial",
+    "no_acervo": 0
+   }
+  ],
+  "intervalos": {},
+  "relogio": [
+   {
+    "tipo": "vinheta_faixa",
+    "segundos": 6
+   },
+   {
+    "tipo": "bloco",
+    "minutos": 19
+   },
+   {
+    "tipo": "intervalo",
+    "quadros": [
+     "proverbio",
+     "voce_sabia"
+    ]
+   },
+   {
+    "tipo": "bloco",
+    "minutos": 19
+   },
+   {
+    "tipo": "chamada",
+    "segundos": 5
+   },
+   {
+    "tipo": "bloco",
+    "minutos": 17
+   },
+   {
+    "tipo": "a_seguir",
+    "segundos": 5
+   }
+  ]
+ },
+ "curso": {
+  "inicio": "2026-10-22",
+  "temas": {
+   "1": "Cumprimentos",
+   "2": "Cortesia",
+   "3": "Números de 1 a 5",
+   "4": "Números de 6 a 10",
+   "5": "Família",
+   "6": "Comida e bebida",
+   "7": "Música e dança",
+   "8": "Natureza",
+   "9": "O tempo",
+   "10": "Sentimentos",
+   "11": "Perguntas",
+   "12": "Frases do dia a dia"
+  },
+  "linguas": {
+   "lingala": {
+    "nome": "Lingala",
+    "onde": "Kinshasa e todo o oeste da RDC, Congo-Brazzaville; a língua da rumba",
+    "cor": "#C13F27"
+   },
+   "kikongo": {
+    "nome": "Kikongo",
+    "onde": "Bas-Congo (Kongo Central) na RDC, Congo-Brazzaville e norte de Angola",
+    "cor": "#6D0F19"
+   },
+   "suaili": {
+    "nome": "Suaíli",
+    "onde": "Tanzânia, Quênia, Uganda, leste da RDC (Goma, Bukavu, Lubumbashi)",
+    "cor": "#2E7D8C"
+   },
+   "tshiluba": {
+    "nome": "Tshiluba",
+    "onde": "Kasai e Kasai Oriental, na RDC (Mbuji-Mayi, Kananga)",
+    "cor": "#925E3D"
+   },
+   "ioruba": {
+    "nome": "Iorubá",
+    "onde": "Nigéria, Benin e Togo; a língua dos orixás, viva no Brasil (axé!)",
+    "cor": "#E77F33"
+   }
+  }
+ },
+ "conteudos": [
+  {
+   "id": "rep-rumble",
+   "tipo": "reportagem",
+   "titulo": "A luta do século: Ali contra Foreman em Kinshasa",
+   "serie": "Momentos que Mudaram Tudo",
+   "episodio": "1/3",
+   "status": "roteiro",
+   "origem": "programa",
+   "roteiro": {
+    "abertura": "30 de outubro de 1974. Quatro horas da manhã em Kinshasa.",
+    "fechamento": "Esta foi a série Momentos que Mudaram Tudo. Até o próximo episódio, aqui na AfriMosa TV: África e Brasil, culturas que se encontram.",
+    "capitulos": [
+     {
+      "titulo": "O desafio",
+      "texto": "George Foreman era o campeão dos pesos-pesados, jovem e temido. Muhammad Ali, aos 32 anos, queria o título de volta. A luta foi marcada no Zaire, atual República Democrática do Congo, com dinheiro do governo de Mobutu e promoção de Don King.",
+      "imagem": {
+       "wiki": "The Rumble in the Jungle"
+      }
+     },
+     {
+      "titulo": "Ali, boma ye!",
+      "texto": "Ali conquistou o povo de Kinshasa nos treinos e nas ruas. Por onde passava, ouvia o grito \"Ali, boma ye!\", em lingala: \"Ali, acaba com ele!\". A luta foi adiada em cinco semanas por causa de um corte no supercílio de Foreman.",
+      "imagem": {
+       "wiki": "Muhammad Ali"
+      }
+     },
+     {
+      "titulo": "A tática das cordas",
+      "texto": "Diante de dezenas de milhares de pessoas no Estádio 20 de Maio, Ali se encostou nas cordas e deixou Foreman se cansar de bater. No oitavo assalto, contra-atacou e venceu por nocaute. A tática ficou famosa com o nome de rope-a-dope.",
+      "imagem": {
+       "wiki": "Rope-a-dope"
+      }
+     },
+     {
+      "titulo": "Zaire 74, o festival",
+      "texto": "Semanas antes, o festival Zaire 74 reuniu James Brown, B. B. King, Miriam Makeba, Franco e Tabu Ley Rochereau. A história virou o documentário Quando Éramos Reis, vencedor do Oscar em 1997.",
+      "imagem": {
+       "wiki": "Zaire 74"
+      }
+     }
+    ]
+   },
+   "fontes": [
+    "Wikipedia (The Rumble in the Jungle; Zaire 74; When We Were Kings)"
+   ],
+   "narracao": {
+    "abertura": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "fechamento": false
+   },
+   "arquivos_redes": []
+  },
+  {
+   "id": "rep-negritude",
+   "tipo": "reportagem",
+   "titulo": "Negritude: o orgulho de ser negro",
+   "serie": "Momentos que Mudaram Tudo",
+   "episodio": "2/3",
+   "status": "roteiro",
+   "origem": "programa",
+   "roteiro": {
+    "abertura": "Paris, anos 1930. Três estudantes negros decidem falar por si mesmos.",
+    "fechamento": "Esta foi a série Momentos que Mudaram Tudo. Até o próximo episódio, aqui na AfriMosa TV: África e Brasil, culturas que se encontram.",
+    "capitulos": [
+     {
+      "titulo": "Três amigos",
+      "texto": "Aimé Césaire, da Martinica, Léopold Sédar Senghor, do Senegal, e Léon-Gontran Damas, da Guiana Francesa, se conheceram em Paris. Em 1935, criaram a revista L'Étudiant noir, o estudante negro.",
+      "imagem": {
+       "wiki": "Négritude"
+      }
+     },
+     {
+      "titulo": "Uma palavra nova",
+      "texto": "Césaire transformou um insulto em bandeira com a palavra négritude. Em 1939, publicou o poema Diário de um Retorno ao País Natal, uma afirmação da cultura e da história africanas contra o colonialismo.",
+      "imagem": {
+       "wiki": "Aimé Césaire"
+      }
+     },
+     {
+      "titulo": "Do poema à política",
+      "texto": "Em 1948, Senghor publicou uma antologia de poetas negros com prefácio de Jean-Paul Sartre. Em 1960, tornou-se o primeiro presidente do Senegal e, em 1966, reuniu artistas do mundo todo em Dakar, no Primeiro Festival Mundial de Artes Negras.",
+      "imagem": {
+       "wiki": "Léopold Sédar Senghor"
+      }
+     },
+     {
+      "titulo": "Ecos no Brasil",
+      "texto": "No Brasil, Abdias Nascimento fundou em 1944 o Teatro Experimental do Negro, com ideias próximas às da negritude. O movimento inspirou gerações de artistas e militantes dos dois lados do Atlântico.",
+      "imagem": {
+       "wiki": "Abdias do Nascimento"
+      }
+     }
+    ]
+   },
+   "fontes": [
+    "Wikipedia (Négritude; Aimé Césaire; Léopold Sédar Senghor; Abdias do Nascimento)"
+   ],
+   "narracao": {
+    "abertura": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "fechamento": false
+   },
+   "arquivos_redes": []
+  },
+  {
+   "id": "rep-1960",
+   "tipo": "reportagem",
+   "titulo": "1960, o Ano da África",
+   "serie": "Momentos que Mudaram Tudo",
+   "episodio": "3/3",
+   "status": "roteiro",
+   "origem": "programa",
+   "roteiro": {
+    "abertura": "Em um único ano, dezessete países africanos ficaram independentes.",
+    "fechamento": "Esta foi a série Momentos que Mudaram Tudo. Até o próximo episódio, aqui na AfriMosa TV: África e Brasil, culturas que se encontram.",
+    "capitulos": [
+     {
+      "titulo": "O Ano da África",
+      "texto": "O ano de 1960 ficou conhecido como o Ano da África. Dezessete países conquistaram a independência, a maioria antigas colônias francesas, além da Nigéria, da Somália e do Congo.",
+      "imagem": {
+       "wiki": "Year of Africa"
+      }
+     },
+     {
+      "titulo": "Do Camarões ao Congo",
+      "texto": "Camarões abriu a lista em 1º de janeiro. Depois vieram Togo, Madagascar, Senegal, Mali, Costa do Marfim, Níger e muitos outros. Em 30 de junho, o Congo se libertou da Bélgica, com Patrice Lumumba como primeiro-ministro.",
+      "imagem": {
+       "wiki": "Patrice Lumumba"
+      }
+     },
+     {
+      "titulo": "A canção da liberdade",
+      "texto": "A canção Indépendance Cha Cha, do Grand Kallé e do African Jazz, virou o hino daquele momento em todo o continente. Ela foi composta em Bruxelas, durante as negociações da independência do Congo.",
+      "imagem": {
+       "wiki": "Joseph Kabasele"
+      }
+     },
+     {
+      "titulo": "O mapa mudou",
+      "texto": "Muitos desses países ainda enfrentariam golpes, guerras e crises. Mas 1960 mudou o mapa do mundo, e as datas de independência são festejadas até hoje, como você acompanha nos dossiês da AfriMosa TV.",
+      "imagem": {
+       "wiki": "Decolonisation of Africa"
+      }
+     }
+    ]
+   },
+   "fontes": [
+    "Wikipedia (Year of Africa; Indépendance Cha Cha; Patrice Lumumba)"
+   ],
+   "narracao": {
+    "abertura": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "fechamento": false
+   },
+   "arquivos_redes": []
+  },
+  {
+   "id": "rep-instrumentos",
+   "tipo": "reportagem",
+   "titulo": "Os instrumentos que guardam a memória",
+   "serie": "Sons e Formas da África",
+   "episodio": "1/3",
+   "status": "roteiro",
+   "origem": "programa",
+   "roteiro": {
+    "abertura": "Antes do rádio e dos discos, a história da África era cantada.",
+    "fechamento": "Esta foi a série Sons e Formas da África. Até o próximo episódio, aqui na AfriMosa TV: África e Brasil, culturas que se encontram.",
+    "capitulos": [
+     {
+      "titulo": "A kora dos griôs",
+      "texto": "Na África Ocidental, os griôs são os guardiões da memória. Eles cantam a genealogia das famílias e as façanhas dos reis. Seu instrumento é a kora, uma harpa de 21 cordas montada sobre uma grande cabaça coberta de couro.",
+      "imagem": {
+       "wiki": "Kora (instrument)"
+      }
+     },
+     {
+      "titulo": "O balafon de Sosso",
+      "texto": "O balafon é um parente africano do xilofone: teclas de madeira sobre cabaças que ressoam. Na Guiné, o Sosso-Bala, guardado por uma mesma família há cerca de oito séculos, é considerado o primeiro balafon. A UNESCO o reconheceu como patrimônio da humanidade.",
+      "imagem": {
+       "wiki": "Balafon"
+      }
+     },
+     {
+      "titulo": "Mbira e likembe",
+      "texto": "No centro e no sul do continente, o som vem de lâminas de metal tocadas com os polegares. No Zimbábue, a mbira acompanha cerimônias para falar com os ancestrais. No Congo, o likembe embala a rumba desde os primeiros discos.",
+      "imagem": {
+       "wiki": "Mbira"
+      }
+     },
+     {
+      "titulo": "A travessia para o Brasil",
+      "texto": "Esses sons atravessaram o Atlântico. O berimbau da capoeira descende de arcos musicais africanos. A cuíca do samba nasceu de tambores de fricção dos povos bantos. E os atabaques do candomblé continuam conversando com os orixás.",
+      "imagem": {
+       "wiki": "Berimbau"
+      }
+     }
+    ]
+   },
+   "fontes": [
+    "UNESCO, Patrimônio Imaterial (Sosso-Bala; Mbira/Sansi)",
+    "Wikipedia (Kora, Balafon, Mbira, Berimbau)"
+   ],
+   "narracao": {
+    "abertura": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "fechamento": false
+   },
+   "arquivos_redes": []
+  },
+  {
+   "id": "rep-mascaras",
+   "tipo": "reportagem",
+   "titulo": "Máscaras: os rostos dos ancestrais",
+   "serie": "Sons e Formas da África",
+   "episodio": "2/3",
+   "status": "roteiro",
+   "origem": "programa",
+   "roteiro": {
+    "abertura": "Na África, uma máscara não se pendura na parede: ela dança.",
+    "fechamento": "Esta foi a série Sons e Formas da África. Até o próximo episódio, aqui na AfriMosa TV: África e Brasil, culturas que se encontram.",
+    "capitulos": [
+     {
+      "titulo": "Muito além do objeto",
+      "texto": "Para muitos povos africanos, a máscara só ganha vida com a dança, a música e a roupa que cobre o corpo inteiro. Quem a veste deixa de ser uma pessoa comum e passa a representar um espírito, um ancestral ou uma força da natureza.",
+      "imagem": {
+       "wiki": "Traditional African masks"
+      }
+     },
+     {
+      "titulo": "Gelede, a festa das mães",
+      "texto": "Entre os iorubás do Benin, da Nigéria e do Togo, as máscaras Gelede homenageiam as mães e o poder feminino. Elas são dançadas por homens em festas cheias de humor e crítica social. A UNESCO declarou o Gelede patrimônio oral da humanidade.",
+      "imagem": {
+       "wiki": "Gelede"
+      }
+     },
+     {
+      "titulo": "Mwana Pwo e as máscaras do Congo",
+      "texto": "Entre os chócues de Angola e do Congo, a máscara Mwana Pwo celebra a beleza da mulher jovem. No reino Kuba, as máscaras reais lembram os fundadores. E os Dan, da Costa do Marfim, usam máscaras até para apostar corrida.",
+      "imagem": {
+       "busca": "Chokwe Pwo mask"
+      }
+     },
+     {
+      "titulo": "De Paris à Bahia",
+      "texto": "No início do século vinte, máscaras africanas impressionaram Picasso e mudaram a arte moderna. No Brasil, na Ilha de Itaparica, na Bahia, o culto aos Egungun mantém viva a tradição iorubá das roupas que trazem os ancestrais de volta.",
+      "imagem": {
+       "wiki": "Egungun"
+      }
+     }
+    ]
+   },
+   "fontes": [
+    "UNESCO, Patrimônio Oral do Gelede",
+    "Wikipedia (Gelede, Egungun, Traditional African masks)"
+   ],
+   "narracao": {
+    "abertura": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "fechamento": false
+   },
+   "arquivos_redes": []
+  },
+  {
+   "id": "rep-rafia",
+   "tipo": "reportagem",
+   "titulo": "Fios da floresta: a ráfia do Congo e as fibras da Amazônia",
+   "serie": "Sons e Formas da África",
+   "episodio": "3/3",
+   "status": "roteiro",
+   "origem": "programa",
+   "roteiro": {
+    "abertura": "Do Congo à Amazônia, a floresta vira tecido.",
+    "fechamento": "Esta foi a série Sons e Formas da África. Até o próximo episódio, aqui na AfriMosa TV: África e Brasil, culturas que se encontram.",
+    "capitulos": [
+     {
+      "titulo": "A palmeira que veste",
+      "texto": "A ráfia é uma palmeira das florestas africanas. De suas folhas jovens saem fibras longas e resistentes. No antigo reino Kuba, na região do Kasai, no Congo, essas fibras se transformam em alguns dos tecidos mais admirados do mundo.",
+      "imagem": {
+       "wiki": "Raphia"
+      }
+     },
+     {
+      "titulo": "O veludo do Kasai",
+      "texto": "Os homens tecem a base no tear. As mulheres bordam, cortam e criam o chamado veludo do Kasai, macio como pelúcia. Cada padrão geométrico tem nome e significado, e os panos já serviram de moeda, de dote e de roupa para a última viagem.",
+      "imagem": {
+       "wiki": "Kuba Kingdom"
+      }
+     },
+     {
+      "titulo": "Da aldeia aos museus",
+      "texto": "O pintor Henri Matisse colecionava panos kuba e se inspirava neles. Hoje esses tecidos estão nos grandes museus do mundo. E os padrões kuba também inspiram a identidade visual da AfriMosa TV.",
+      "imagem": {
+       "busca": "Kuba textile raffia"
+      }
+     },
+     {
+      "titulo": "As fibras da Amazônia",
+      "texto": "Do outro lado do Atlântico, os povos da Amazônia também fazem da palmeira um fio. Do tucum e do buriti saem redes, bolsas e cestos, e o povo Baniwa, do Rio Negro, é famoso pelos cestos de arumã. A ráfia tem até uma prima amazônica: a jupati, do estuário do grande rio.",
+      "imagem": {
+       "wiki": "Mauritia flexuosa"
+      }
+     }
+    ]
+   },
+   "fontes": [
+    "Wikipedia (Raphia, Kuba Kingdom, Mauritia flexuosa)",
+    "Instituto Socioambiental, Povos Indígenas no Brasil (Baniwa)"
+   ],
+   "narracao": {
+    "abertura": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "fechamento": false
+   },
+   "arquivos_redes": []
+  },
+  {
+   "id": "licao-lingala-01",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 1: Cumprimentos",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 1,
+   "tema": "Cumprimentos",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Mbote",
+     "pronuncia": "mbó-te",
+     "significado": "Olá"
+    },
+    {
+     "palavra": "Sango nini?",
+     "pronuncia": "sán-go ní-ni",
+     "significado": "E aí? Quais as novidades?"
+    },
+    {
+     "palavra": "Ozali malamu?",
+     "pronuncia": "o-zá-li ma-lá-mu",
+     "significado": "Você está bem?"
+    },
+    {
+     "palavra": "Nazali malamu",
+     "pronuncia": "na-zá-li ma-lá-mu",
+     "significado": "Estou bem"
+    },
+    {
+     "palavra": "Tokomonana",
+     "pronuncia": "to-ko-mo-ná-na",
+     "significado": "Até logo (a gente se vê)"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-02",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 2: Cortesia",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 2,
+   "tema": "Cortesia",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Matondo",
+     "pronuncia": "ma-tôn-do",
+     "significado": "Obrigado"
+    },
+    {
+     "palavra": "Melesi",
+     "pronuncia": "me-lé-si",
+     "significado": "Obrigado (do francês merci)"
+    },
+    {
+     "palavra": "Ee",
+     "pronuncia": "ê",
+     "significado": "Sim"
+    },
+    {
+     "palavra": "Te",
+     "pronuncia": "tê",
+     "significado": "Não"
+    },
+    {
+     "palavra": "Limbisa ngai",
+     "pronuncia": "lim-bí-sa ngái",
+     "significado": "Desculpe-me"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-03",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 3: Números de 1 a 5",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 3,
+   "tema": "Números de 1 a 5",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Mókó",
+     "pronuncia": "mô-kô",
+     "significado": "Um"
+    },
+    {
+     "palavra": "Míbalé",
+     "pronuncia": "mí-ba-lê",
+     "significado": "Dois"
+    },
+    {
+     "palavra": "Mísáto",
+     "pronuncia": "mí-sá-to",
+     "significado": "Três"
+    },
+    {
+     "palavra": "Mínei",
+     "pronuncia": "mí-nei",
+     "significado": "Quatro"
+    },
+    {
+     "palavra": "Mítáno",
+     "pronuncia": "mí-tá-no",
+     "significado": "Cinco"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-04",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 4: Números de 6 a 10",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 4,
+   "tema": "Números de 6 a 10",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Motóba",
+     "pronuncia": "mo-tô-ba",
+     "significado": "Seis"
+    },
+    {
+     "palavra": "Nsambo",
+     "pronuncia": "n-sám-bo",
+     "significado": "Sete"
+    },
+    {
+     "palavra": "Mwambe",
+     "pronuncia": "muám-be",
+     "significado": "Oito"
+    },
+    {
+     "palavra": "Libwa",
+     "pronuncia": "lí-bua",
+     "significado": "Nove"
+    },
+    {
+     "palavra": "Zomi",
+     "pronuncia": "zô-mi",
+     "significado": "Dez"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-05",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 5: Família",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 5,
+   "tema": "Família",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Mama",
+     "pronuncia": "má-ma",
+     "significado": "Mãe"
+    },
+    {
+     "palavra": "Tata",
+     "pronuncia": "tá-ta",
+     "significado": "Pai"
+    },
+    {
+     "palavra": "Ndeko",
+     "pronuncia": "n-dê-ko",
+     "significado": "Irmão, irmã, parente"
+    },
+    {
+     "palavra": "Mwana",
+     "pronuncia": "muá-na",
+     "significado": "Criança, filho"
+    },
+    {
+     "palavra": "Nkoko",
+     "pronuncia": "n-kô-ko",
+     "significado": "Avô, avó"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-06",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 6: Comida e bebida",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 6,
+   "tema": "Comida e bebida",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Mai",
+     "pronuncia": "mái",
+     "significado": "Água"
+    },
+    {
+     "palavra": "Bilei",
+     "pronuncia": "bi-lê-i",
+     "significado": "Comida"
+    },
+    {
+     "palavra": "Mbisi",
+     "pronuncia": "m-bí-si",
+     "significado": "Peixe"
+    },
+    {
+     "palavra": "Pondu",
+     "pronuncia": "pôn-du",
+     "significado": "Folhas de mandioca (prato típico)"
+    },
+    {
+     "palavra": "Fufu",
+     "pronuncia": "fú-fu",
+     "significado": "Massa de mandioca ou milho"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-07",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 7: Música e dança",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 7,
+   "tema": "Música e dança",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Miziki",
+     "pronuncia": "mi-zí-ki",
+     "significado": "Música"
+    },
+    {
+     "palavra": "Kobina",
+     "pronuncia": "ko-bí-na",
+     "significado": "Dançar"
+    },
+    {
+     "palavra": "Koyemba",
+     "pronuncia": "ko-iêm-ba",
+     "significado": "Cantar"
+    },
+    {
+     "palavra": "Ngoma",
+     "pronuncia": "n-gô-ma",
+     "significado": "Tambor"
+    },
+    {
+     "palavra": "Feti",
+     "pronuncia": "fé-ti",
+     "significado": "Festa"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-08",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 8: Natureza",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 8,
+   "tema": "Natureza",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Moi",
+     "pronuncia": "mô-i",
+     "significado": "Sol"
+    },
+    {
+     "palavra": "Sanza",
+     "pronuncia": "sán-za",
+     "significado": "Lua"
+    },
+    {
+     "palavra": "Ebale",
+     "pronuncia": "e-bá-le",
+     "significado": "Rio"
+    },
+    {
+     "palavra": "Mbula",
+     "pronuncia": "m-bú-la",
+     "significado": "Chuva"
+    },
+    {
+     "palavra": "Nzete",
+     "pronuncia": "n-zé-te",
+     "significado": "Árvore"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-09",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 9: O tempo",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 9,
+   "tema": "O tempo",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Lelo",
+     "pronuncia": "lé-lo",
+     "significado": "Hoje"
+    },
+    {
+     "palavra": "Lobi",
+     "pronuncia": "lô-bi",
+     "significado": "Amanhã (ou ontem, conforme o verbo)"
+    },
+    {
+     "palavra": "Mokolo",
+     "pronuncia": "mo-kô-lo",
+     "significado": "Dia"
+    },
+    {
+     "palavra": "Butu",
+     "pronuncia": "bú-tu",
+     "significado": "Noite"
+    },
+    {
+     "palavra": "Ntongo",
+     "pronuncia": "n-tôn-go",
+     "significado": "Manhã"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-10",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 10: Sentimentos",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 10,
+   "tema": "Sentimentos",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Bolingo",
+     "pronuncia": "bo-lín-go",
+     "significado": "Amor"
+    },
+    {
+     "palavra": "Esengo",
+     "pronuncia": "e-sén-go",
+     "significado": "Alegria"
+    },
+    {
+     "palavra": "Mawa",
+     "pronuncia": "má-ua",
+     "significado": "Tristeza, pena"
+    },
+    {
+     "palavra": "Nalingi yo",
+     "pronuncia": "na-lín-gi iô",
+     "significado": "Eu te amo"
+    },
+    {
+     "palavra": "Kobanga",
+     "pronuncia": "ko-bán-ga",
+     "significado": "Ter medo"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-11",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 11: Perguntas",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 11,
+   "tema": "Perguntas",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Nani?",
+     "pronuncia": "ná-ni",
+     "significado": "Quem?"
+    },
+    {
+     "palavra": "Nini?",
+     "pronuncia": "ní-ni",
+     "significado": "O quê?"
+    },
+    {
+     "palavra": "Wapi?",
+     "pronuncia": "uá-pi",
+     "significado": "Onde?"
+    },
+    {
+     "palavra": "Ntango nini?",
+     "pronuncia": "n-tán-go ní-ni",
+     "significado": "Quando?"
+    },
+    {
+     "palavra": "Boni?",
+     "pronuncia": "bô-ni",
+     "significado": "Como? Quanto?"
+    }
+   ]
+  },
+  {
+   "id": "licao-lingala-12",
+   "tipo": "licao",
+   "titulo": "Lingala · Lição 12: Frases do dia a dia",
+   "serie": "Línguas da África",
+   "lingua": "Lingala",
+   "licao": 12,
+   "tema": "Frases do dia a dia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#C13F27",
+   "palavras": [
+    {
+     "palavra": "Yaka awa",
+     "pronuncia": "iá-ka á-ua",
+     "significado": "Vem aqui"
+    },
+    {
+     "palavra": "Kende malamu",
+     "pronuncia": "kén-de ma-lá-mu",
+     "significado": "Vá bem (tchau)"
+    },
+    {
+     "palavra": "Tikala malamu",
+     "pronuncia": "ti-ká-la ma-lá-mu",
+     "significado": "Fique bem (tchau)"
+    },
+    {
+     "palavra": "Nazali na nzala",
+     "pronuncia": "na-zá-li na n-zá-la",
+     "significado": "Estou com fome"
+    },
+    {
+     "palavra": "Malembe",
+     "pronuncia": "ma-lém-be",
+     "significado": "Devagar, com calma"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-01",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 1: Cumprimentos",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 1,
+   "tema": "Cumprimentos",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Mbote",
+     "pronuncia": "mbó-te",
+     "significado": "Olá"
+    },
+    {
+     "palavra": "Nge kele mbote?",
+     "pronuncia": "n-gué ké-le mbó-te",
+     "significado": "Você está bem?"
+    },
+    {
+     "palavra": "Mono kele mbote",
+     "pronuncia": "mô-no ké-le mbó-te",
+     "significado": "Estou bem"
+    },
+    {
+     "palavra": "Kwenda mbote",
+     "pronuncia": "kuén-da mbó-te",
+     "significado": "Vá bem (tchau)"
+    },
+    {
+     "palavra": "Malembe",
+     "pronuncia": "ma-lém-be",
+     "significado": "Devagar, com calma"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-02",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 2: Cortesia",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 2,
+   "tema": "Cortesia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Matondo",
+     "pronuncia": "ma-tôn-do",
+     "significado": "Obrigado"
+    },
+    {
+     "palavra": "Ee",
+     "pronuncia": "ê",
+     "significado": "Sim"
+    },
+    {
+     "palavra": "Ve",
+     "pronuncia": "vê",
+     "significado": "Não"
+    },
+    {
+     "palavra": "Limbisa mono",
+     "pronuncia": "lim-bí-sa mô-no",
+     "significado": "Desculpe-me"
+    },
+    {
+     "palavra": "Mono zola nge",
+     "pronuncia": "mô-no zô-la n-gué",
+     "significado": "Eu te amo"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-03",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 3: Números de 1 a 5",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 3,
+   "tema": "Números de 1 a 5",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Mosi",
+     "pronuncia": "mô-si",
+     "significado": "Um"
+    },
+    {
+     "palavra": "Zole",
+     "pronuncia": "zô-le",
+     "significado": "Dois"
+    },
+    {
+     "palavra": "Tatu",
+     "pronuncia": "tá-tu",
+     "significado": "Três"
+    },
+    {
+     "palavra": "Iya",
+     "pronuncia": "í-ia",
+     "significado": "Quatro"
+    },
+    {
+     "palavra": "Tanu",
+     "pronuncia": "tá-nu",
+     "significado": "Cinco"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-04",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 4: Números de 6 a 10",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 4,
+   "tema": "Números de 6 a 10",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Sambanu",
+     "pronuncia": "sam-bá-nu",
+     "significado": "Seis"
+    },
+    {
+     "palavra": "Nsambwadi",
+     "pronuncia": "n-sam-buá-di",
+     "significado": "Sete"
+    },
+    {
+     "palavra": "Nana",
+     "pronuncia": "ná-na",
+     "significado": "Oito"
+    },
+    {
+     "palavra": "Uvwa",
+     "pronuncia": "ú-vua",
+     "significado": "Nove"
+    },
+    {
+     "palavra": "Kumi",
+     "pronuncia": "kú-mi",
+     "significado": "Dez"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-05",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 5: Família",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 5,
+   "tema": "Família",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Mama",
+     "pronuncia": "má-ma",
+     "significado": "Mãe"
+    },
+    {
+     "palavra": "Tata",
+     "pronuncia": "tá-ta",
+     "significado": "Pai"
+    },
+    {
+     "palavra": "Mpangi",
+     "pronuncia": "m-pán-gui",
+     "significado": "Irmão, irmã"
+    },
+    {
+     "palavra": "Mwana",
+     "pronuncia": "muá-na",
+     "significado": "Criança, filho"
+    },
+    {
+     "palavra": "Nkaka",
+     "pronuncia": "n-ká-ka",
+     "significado": "Avô, avó"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-06",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 6: Comida e bebida",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 6,
+   "tema": "Comida e bebida",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Maza",
+     "pronuncia": "má-za",
+     "significado": "Água"
+    },
+    {
+     "palavra": "Madia",
+     "pronuncia": "ma-dí-a",
+     "significado": "Comida"
+    },
+    {
+     "palavra": "Mbisi",
+     "pronuncia": "m-bí-si",
+     "significado": "Peixe"
+    },
+    {
+     "palavra": "Nsafu",
+     "pronuncia": "n-sá-fu",
+     "significado": "Safu (fruta típica)"
+    },
+    {
+     "palavra": "Luku",
+     "pronuncia": "lú-ku",
+     "significado": "Massa de mandioca"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-07",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 7: Música e dança",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 7,
+   "tema": "Música e dança",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Nkunga",
+     "pronuncia": "n-kún-ga",
+     "significado": "Canção"
+    },
+    {
+     "palavra": "Kusakana",
+     "pronuncia": "ku-sa-ká-na",
+     "significado": "Brincar, dançar"
+    },
+    {
+     "palavra": "Kuyimba",
+     "pronuncia": "ku-ím-ba",
+     "significado": "Cantar"
+    },
+    {
+     "palavra": "Ngoma",
+     "pronuncia": "n-gô-ma",
+     "significado": "Tambor"
+    },
+    {
+     "palavra": "Nkembo",
+     "pronuncia": "n-kém-bo",
+     "significado": "Festa, glória"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-08",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 8: Natureza",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 8,
+   "tema": "Natureza",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Ntangu",
+     "pronuncia": "n-tán-gu",
+     "significado": "Sol (e tempo)"
+    },
+    {
+     "palavra": "Ngonda",
+     "pronuncia": "n-gôn-da",
+     "significado": "Lua"
+    },
+    {
+     "palavra": "Nzadi",
+     "pronuncia": "n-zá-di",
+     "significado": "Rio (o rio Congo)"
+    },
+    {
+     "palavra": "Mvula",
+     "pronuncia": "m-vú-la",
+     "significado": "Chuva"
+    },
+    {
+     "palavra": "Nti",
+     "pronuncia": "n-tí",
+     "significado": "Árvore"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-09",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 9: O tempo",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 9,
+   "tema": "O tempo",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Bubu",
+     "pronuncia": "bú-bu",
+     "significado": "Hoje"
+    },
+    {
+     "palavra": "Mbazi",
+     "pronuncia": "m-bá-zi",
+     "significado": "Amanhã"
+    },
+    {
+     "palavra": "Lumbu",
+     "pronuncia": "lúm-bu",
+     "significado": "Dia"
+    },
+    {
+     "palavra": "Mpimpa",
+     "pronuncia": "m-pím-pa",
+     "significado": "Noite"
+    },
+    {
+     "palavra": "Suka",
+     "pronuncia": "sú-ka",
+     "significado": "Manhã"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-10",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 10: Sentimentos",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 10,
+   "tema": "Sentimentos",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Luzolo",
+     "pronuncia": "lu-zô-lo",
+     "significado": "Amor, vontade"
+    },
+    {
+     "palavra": "Kiese",
+     "pronuncia": "ki-ê-se",
+     "significado": "Alegria"
+    },
+    {
+     "palavra": "Mawa",
+     "pronuncia": "má-ua",
+     "significado": "Tristeza, pena"
+    },
+    {
+     "palavra": "Mono zola nge",
+     "pronuncia": "mô-no zô-la n-gué",
+     "significado": "Eu te amo"
+    },
+    {
+     "palavra": "Boma",
+     "pronuncia": "bô-ma",
+     "significado": "Medo"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-11",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 11: Perguntas",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 11,
+   "tema": "Perguntas",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Nani?",
+     "pronuncia": "ná-ni",
+     "significado": "Quem?"
+    },
+    {
+     "palavra": "Inki?",
+     "pronuncia": "ín-ki",
+     "significado": "O quê?"
+    },
+    {
+     "palavra": "Wapi?",
+     "pronuncia": "uá-pi",
+     "significado": "Onde?"
+    },
+    {
+     "palavra": "Ntangu nki?",
+     "pronuncia": "n-tán-gu n-kí",
+     "significado": "Quando?"
+    },
+    {
+     "palavra": "Ikwa?",
+     "pronuncia": "í-kua",
+     "significado": "Quantos?"
+    }
+   ]
+  },
+  {
+   "id": "licao-kikongo-12",
+   "tipo": "licao",
+   "titulo": "Kikongo · Lição 12: Frases do dia a dia",
+   "serie": "Línguas da África",
+   "lingua": "Kikongo",
+   "licao": 12,
+   "tema": "Frases do dia a dia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#6D0F19",
+   "palavras": [
+    {
+     "palavra": "Kwiza awa",
+     "pronuncia": "kuí-za á-ua",
+     "significado": "Vem aqui"
+    },
+    {
+     "palavra": "Kwenda mbote",
+     "pronuncia": "kuén-da mbó-te",
+     "significado": "Vá bem (tchau)"
+    },
+    {
+     "palavra": "Kuvanda mbote",
+     "pronuncia": "ku-ván-da mbó-te",
+     "significado": "Fique bem"
+    },
+    {
+     "palavra": "Nzala",
+     "pronuncia": "n-zá-la",
+     "significado": "Fome"
+    },
+    {
+     "palavra": "Malembe malembe",
+     "pronuncia": "ma-lém-be ma-lém-be",
+     "significado": "Devagarinho"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-01",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 1: Cumprimentos",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 1,
+   "tema": "Cumprimentos",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Habari",
+     "pronuncia": "ra-bá-ri",
+     "significado": "Olá (e aí? novidades?)"
+    },
+    {
+     "palavra": "Hujambo",
+     "pronuncia": "ru-djám-bo",
+     "significado": "Olá (formal)"
+    },
+    {
+     "palavra": "Habari gani?",
+     "pronuncia": "ra-bá-ri gá-ni",
+     "significado": "Como vai?"
+    },
+    {
+     "palavra": "Nzuri",
+     "pronuncia": "n-zú-ri",
+     "significado": "Bem (estou bem)"
+    },
+    {
+     "palavra": "Kwa heri",
+     "pronuncia": "kua rê-ri",
+     "significado": "Tchau"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-02",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 2: Cortesia",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 2,
+   "tema": "Cortesia",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Asante",
+     "pronuncia": "a-sán-te",
+     "significado": "Obrigado"
+    },
+    {
+     "palavra": "Tafadhali",
+     "pronuncia": "ta-fa-dá-li",
+     "significado": "Por favor"
+    },
+    {
+     "palavra": "Ndiyo",
+     "pronuncia": "n-dí-io",
+     "significado": "Sim"
+    },
+    {
+     "palavra": "Hapana",
+     "pronuncia": "ra-pá-na",
+     "significado": "Não"
+    },
+    {
+     "palavra": "Samahani",
+     "pronuncia": "sa-ma-rá-ni",
+     "significado": "Desculpe"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-03",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 3: Números de 1 a 5",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 3,
+   "tema": "Números de 1 a 5",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Moja",
+     "pronuncia": "mô-dja",
+     "significado": "Um"
+    },
+    {
+     "palavra": "Mbili",
+     "pronuncia": "m-bí-li",
+     "significado": "Dois"
+    },
+    {
+     "palavra": "Tatu",
+     "pronuncia": "tá-tu",
+     "significado": "Três"
+    },
+    {
+     "palavra": "Nne",
+     "pronuncia": "n-nê",
+     "significado": "Quatro"
+    },
+    {
+     "palavra": "Tano",
+     "pronuncia": "tá-no",
+     "significado": "Cinco"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-04",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 4: Números de 6 a 10",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 4,
+   "tema": "Números de 6 a 10",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Sita",
+     "pronuncia": "sí-ta",
+     "significado": "Seis"
+    },
+    {
+     "palavra": "Saba",
+     "pronuncia": "sá-ba",
+     "significado": "Sete"
+    },
+    {
+     "palavra": "Nane",
+     "pronuncia": "ná-ne",
+     "significado": "Oito"
+    },
+    {
+     "palavra": "Tisa",
+     "pronuncia": "tí-sa",
+     "significado": "Nove"
+    },
+    {
+     "palavra": "Kumi",
+     "pronuncia": "kú-mi",
+     "significado": "Dez"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-05",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 5: Família",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 5,
+   "tema": "Família",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Mama",
+     "pronuncia": "má-ma",
+     "significado": "Mãe"
+    },
+    {
+     "palavra": "Baba",
+     "pronuncia": "bá-ba",
+     "significado": "Pai"
+    },
+    {
+     "palavra": "Kaka",
+     "pronuncia": "ká-ka",
+     "significado": "Irmão"
+    },
+    {
+     "palavra": "Dada",
+     "pronuncia": "dá-da",
+     "significado": "Irmã"
+    },
+    {
+     "palavra": "Mtoto",
+     "pronuncia": "m-tô-to",
+     "significado": "Criança"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-06",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 6: Comida e bebida",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 6,
+   "tema": "Comida e bebida",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Maji",
+     "pronuncia": "má-dji",
+     "significado": "Água"
+    },
+    {
+     "palavra": "Chakula",
+     "pronuncia": "tcha-kú-la",
+     "significado": "Comida"
+    },
+    {
+     "palavra": "Samaki",
+     "pronuncia": "sa-má-ki",
+     "significado": "Peixe"
+    },
+    {
+     "palavra": "Muhogo",
+     "pronuncia": "mu-rô-go",
+     "significado": "Mandioca"
+    },
+    {
+     "palavra": "Ndizi",
+     "pronuncia": "n-dí-zi",
+     "significado": "Banana"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-07",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 7: Música e dança",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 7,
+   "tema": "Música e dança",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Muziki",
+     "pronuncia": "mu-zí-ki",
+     "significado": "Música"
+    },
+    {
+     "palavra": "Kucheza",
+     "pronuncia": "ku-tchê-za",
+     "significado": "Dançar, brincar"
+    },
+    {
+     "palavra": "Kuimba",
+     "pronuncia": "ku-ím-ba",
+     "significado": "Cantar"
+    },
+    {
+     "palavra": "Ngoma",
+     "pronuncia": "n-gô-ma",
+     "significado": "Tambor"
+    },
+    {
+     "palavra": "Sherehe",
+     "pronuncia": "xe-rê-re",
+     "significado": "Festa"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-08",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 8: Natureza",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 8,
+   "tema": "Natureza",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Jua",
+     "pronuncia": "djú-a",
+     "significado": "Sol"
+    },
+    {
+     "palavra": "Mwezi",
+     "pronuncia": "muê-zi",
+     "significado": "Lua"
+    },
+    {
+     "palavra": "Mto",
+     "pronuncia": "m-tô",
+     "significado": "Rio"
+    },
+    {
+     "palavra": "Mvua",
+     "pronuncia": "m-vú-a",
+     "significado": "Chuva"
+    },
+    {
+     "palavra": "Mti",
+     "pronuncia": "m-tí",
+     "significado": "Árvore"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-09",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 9: O tempo",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 9,
+   "tema": "O tempo",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Leo",
+     "pronuncia": "lê-o",
+     "significado": "Hoje"
+    },
+    {
+     "palavra": "Kesho",
+     "pronuncia": "kê-xo",
+     "significado": "Amanhã"
+    },
+    {
+     "palavra": "Jana",
+     "pronuncia": "djá-na",
+     "significado": "Ontem"
+    },
+    {
+     "palavra": "Mchana",
+     "pronuncia": "m-tchá-na",
+     "significado": "Dia (de dia)"
+    },
+    {
+     "palavra": "Usiku",
+     "pronuncia": "u-sí-ku",
+     "significado": "Noite"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-10",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 10: Sentimentos",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 10,
+   "tema": "Sentimentos",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Upendo",
+     "pronuncia": "u-pên-do",
+     "significado": "Amor"
+    },
+    {
+     "palavra": "Furaha",
+     "pronuncia": "fu-rá-ra",
+     "significado": "Alegria"
+    },
+    {
+     "palavra": "Huzuni",
+     "pronuncia": "ru-zú-ni",
+     "significado": "Tristeza"
+    },
+    {
+     "palavra": "Nakupenda",
+     "pronuncia": "na-ku-pên-da",
+     "significado": "Eu te amo"
+    },
+    {
+     "palavra": "Hofu",
+     "pronuncia": "rô-fu",
+     "significado": "Medo"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-11",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 11: Perguntas",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 11,
+   "tema": "Perguntas",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Nani?",
+     "pronuncia": "ná-ni",
+     "significado": "Quem?"
+    },
+    {
+     "palavra": "Nini?",
+     "pronuncia": "ní-ni",
+     "significado": "O quê?"
+    },
+    {
+     "palavra": "Wapi?",
+     "pronuncia": "uá-pi",
+     "significado": "Onde?"
+    },
+    {
+     "palavra": "Lini?",
+     "pronuncia": "lí-ni",
+     "significado": "Quando?"
+    },
+    {
+     "palavra": "Ngapi?",
+     "pronuncia": "n-gá-pi",
+     "significado": "Quantos?"
+    }
+   ]
+  },
+  {
+   "id": "licao-suaili-12",
+   "tipo": "licao",
+   "titulo": "Suaíli · Lição 12: Frases do dia a dia",
+   "serie": "Línguas da África",
+   "lingua": "Suaíli",
+   "licao": 12,
+   "tema": "Frases do dia a dia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#2E7D8C",
+   "palavras": [
+    {
+     "palavra": "Karibu",
+     "pronuncia": "ka-rí-bu",
+     "significado": "Bem-vindo"
+    },
+    {
+     "palavra": "Pole pole",
+     "pronuncia": "pô-le pô-le",
+     "significado": "Devagar"
+    },
+    {
+     "palavra": "Hakuna matata",
+     "pronuncia": "ra-kú-na ma-tá-ta",
+     "significado": "Sem problemas"
+    },
+    {
+     "palavra": "Lala salama",
+     "pronuncia": "lá-la sa-lá-ma",
+     "significado": "Durma bem"
+    },
+    {
+     "palavra": "Twende",
+     "pronuncia": "tuên-de",
+     "significado": "Vamos!"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-01",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 1: Cumprimentos",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 1,
+   "tema": "Cumprimentos",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Moyo",
+     "pronuncia": "mô-io",
+     "significado": "Olá (literalmente vida)"
+    },
+    {
+     "palavra": "Moyo webe",
+     "pronuncia": "mô-io uê-be",
+     "significado": "Olá para você"
+    },
+    {
+     "palavra": "Bishi wewe?",
+     "pronuncia": "bí-xi uê-ue",
+     "significado": "Como vai você?"
+    },
+    {
+     "palavra": "Ndi bimpe",
+     "pronuncia": "n-dí bím-pe",
+     "significado": "Estou bem"
+    },
+    {
+     "palavra": "Waya bilenga",
+     "pronuncia": "uá-ia bi-lên-ga",
+     "significado": "Tchau (vá bem)"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-02",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 2: Cortesia",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 2,
+   "tema": "Cortesia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Tuasakidila",
+     "pronuncia": "tua-sa-ki-dí-la",
+     "significado": "Obrigado"
+    },
+    {
+     "palavra": "Tuasakidila wa bungi",
+     "pronuncia": "tua-sa-ki-dí-la ua bún-gui",
+     "significado": "Muito obrigado"
+    },
+    {
+     "palavra": "Eyowa",
+     "pronuncia": "e-iô-ua",
+     "significado": "Sim"
+    },
+    {
+     "palavra": "Tòo",
+     "pronuncia": "tô",
+     "significado": "Não"
+    },
+    {
+     "palavra": "Shala bimpe",
+     "pronuncia": "xá-la bím-pe",
+     "significado": "Fique bem"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-03",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 3: Números de 1 a 5",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 3,
+   "tema": "Números de 1 a 5",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Umue",
+     "pronuncia": "u-mu-ê",
+     "significado": "Um"
+    },
+    {
+     "palavra": "Ibidi",
+     "pronuncia": "i-bí-di",
+     "significado": "Dois"
+    },
+    {
+     "palavra": "Isatu",
+     "pronuncia": "i-sá-tu",
+     "significado": "Três"
+    },
+    {
+     "palavra": "Inayi",
+     "pronuncia": "i-ná-i",
+     "significado": "Quatro"
+    },
+    {
+     "palavra": "Itanu",
+     "pronuncia": "i-tá-nu",
+     "significado": "Cinco"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-04",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 4: Números de 6 a 10",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 4,
+   "tema": "Números de 6 a 10",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Isambombo",
+     "pronuncia": "i-sam-bôm-bo",
+     "significado": "Seis"
+    },
+    {
+     "palavra": "Muanda mutekete",
+     "pronuncia": "muán-da mu-te-kê-te",
+     "significado": "Sete"
+    },
+    {
+     "palavra": "Muanda mukulu",
+     "pronuncia": "muán-da mu-kú-lu",
+     "significado": "Oito"
+    },
+    {
+     "palavra": "Tshitema",
+     "pronuncia": "tchi-tê-ma",
+     "significado": "Nove"
+    },
+    {
+     "palavra": "Dikumi",
+     "pronuncia": "di-kú-mi",
+     "significado": "Dez"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-05",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 5: Família",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 5,
+   "tema": "Família",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Mamu",
+     "pronuncia": "má-mu",
+     "significado": "Mãe"
+    },
+    {
+     "palavra": "Tatu",
+     "pronuncia": "tá-tu",
+     "significado": "Pai"
+    },
+    {
+     "palavra": "Muanetu",
+     "pronuncia": "mua-nê-tu",
+     "significado": "Irmão, irmã"
+    },
+    {
+     "palavra": "Muana",
+     "pronuncia": "muá-na",
+     "significado": "Criança, filho"
+    },
+    {
+     "palavra": "Nkaku",
+     "pronuncia": "n-ká-ku",
+     "significado": "Avô, avó"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-06",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 6: Comida e bebida",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 6,
+   "tema": "Comida e bebida",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Mâyi",
+     "pronuncia": "má-i",
+     "significado": "Água"
+    },
+    {
+     "palavra": "Biakudia",
+     "pronuncia": "bia-ku-dí-a",
+     "significado": "Comida"
+    },
+    {
+     "palavra": "Mishipa",
+     "pronuncia": "mi-xí-pa",
+     "significado": "Peixe (a conferir)"
+    },
+    {
+     "palavra": "Nshima",
+     "pronuncia": "n-xí-ma",
+     "significado": "Massa de mandioca ou milho"
+    },
+    {
+     "palavra": "Bilunga",
+     "pronuncia": "bi-lún-ga",
+     "significado": "Mandioca (a conferir)"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-07",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 7: Música e dança",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 7,
+   "tema": "Música e dança",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Musambu",
+     "pronuncia": "mu-sám-bu",
+     "significado": "Canção"
+    },
+    {
+     "palavra": "Kuja",
+     "pronuncia": "kú-dja",
+     "significado": "Dançar"
+    },
+    {
+     "palavra": "Kuimba",
+     "pronuncia": "ku-ím-ba",
+     "significado": "Cantar"
+    },
+    {
+     "palavra": "Ngoma",
+     "pronuncia": "n-gô-ma",
+     "significado": "Tambor"
+    },
+    {
+     "palavra": "Disanka",
+     "pronuncia": "di-sán-ka",
+     "significado": "Alegria, festa"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-08",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 8: Natureza",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 8,
+   "tema": "Natureza",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Dîba",
+     "pronuncia": "dí-ba",
+     "significado": "Sol"
+    },
+    {
+     "palavra": "Ngondo",
+     "pronuncia": "n-gôn-do",
+     "significado": "Lua"
+    },
+    {
+     "palavra": "Musulu",
+     "pronuncia": "mu-sú-lu",
+     "significado": "Rio"
+    },
+    {
+     "palavra": "Mvula",
+     "pronuncia": "m-vú-la",
+     "significado": "Chuva"
+    },
+    {
+     "palavra": "Mutshi",
+     "pronuncia": "mu-tchí",
+     "significado": "Árvore"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-09",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 9: O tempo",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 9,
+   "tema": "O tempo",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Lelu",
+     "pronuncia": "lê-lu",
+     "significado": "Hoje"
+    },
+    {
+     "palavra": "Makelela",
+     "pronuncia": "ma-ke-lê-la",
+     "significado": "Amanhã (a conferir)"
+    },
+    {
+     "palavra": "Dituku",
+     "pronuncia": "di-tú-ku",
+     "significado": "Dia"
+    },
+    {
+     "palavra": "Butuku",
+     "pronuncia": "bu-tú-ku",
+     "significado": "Noite"
+    },
+    {
+     "palavra": "Dinda",
+     "pronuncia": "dín-da",
+     "significado": "Manhã"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-10",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 10: Sentimentos",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 10,
+   "tema": "Sentimentos",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Dinanga",
+     "pronuncia": "di-nán-ga",
+     "significado": "Amor"
+    },
+    {
+     "palavra": "Disanka",
+     "pronuncia": "di-sán-ka",
+     "significado": "Alegria"
+    },
+    {
+     "palavra": "Kanyinganyinga",
+     "pronuncia": "ka-nhin-ga-nhín-ga",
+     "significado": "Tristeza (a conferir)"
+    },
+    {
+     "palavra": "Ndi mukunange",
+     "pronuncia": "n-dí mu-ku-ná-ngue",
+     "significado": "Eu te amo (a conferir)"
+    },
+    {
+     "palavra": "Buôwa",
+     "pronuncia": "bu-ô-ua",
+     "significado": "Medo"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-11",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 11: Perguntas",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 11,
+   "tema": "Perguntas",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Nganyi?",
+     "pronuncia": "n-gá-nhi",
+     "significado": "Quem?"
+    },
+    {
+     "palavra": "Tshinyi?",
+     "pronuncia": "tchí-nhi",
+     "significado": "O quê?"
+    },
+    {
+     "palavra": "Kuepi?",
+     "pronuncia": "kuê-pi",
+     "significado": "Onde?"
+    },
+    {
+     "palavra": "Dîba kayi?",
+     "pronuncia": "dí-ba ká-i",
+     "significado": "Quando? (a conferir)"
+    },
+    {
+     "palavra": "Bungi kayi?",
+     "pronuncia": "bún-gui ká-i",
+     "significado": "Quanto?"
+    }
+   ]
+  },
+  {
+   "id": "licao-tshiluba-12",
+   "tipo": "licao",
+   "titulo": "Tshiluba · Lição 12: Frases do dia a dia",
+   "serie": "Línguas da África",
+   "lingua": "Tshiluba",
+   "licao": 12,
+   "tema": "Frases do dia a dia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#925E3D",
+   "palavras": [
+    {
+     "palavra": "Lua kuneku",
+     "pronuncia": "lua ku-nê-ku",
+     "significado": "Vem aqui"
+    },
+    {
+     "palavra": "Waya bimpe",
+     "pronuncia": "uá-ia bím-pe",
+     "significado": "Boa viagem"
+    },
+    {
+     "palavra": "Shala bilenga",
+     "pronuncia": "xá-la bi-lên-ga",
+     "significado": "Fique bem"
+    },
+    {
+     "palavra": "Lala bimpe",
+     "pronuncia": "lá-la bím-pe",
+     "significado": "Boa noite"
+    },
+    {
+     "palavra": "Malu kayi?",
+     "pronuncia": "má-lu ká-i",
+     "significado": "Como estão as coisas?"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-01",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 1: Cumprimentos",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 1,
+   "tema": "Cumprimentos",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ẹ n lẹ",
+     "pronuncia": "ê n lê",
+     "significado": "Olá"
+    },
+    {
+     "palavra": "Ẹ káàárọ̀",
+     "pronuncia": "ê ká-á-ró",
+     "significado": "Bom dia"
+    },
+    {
+     "palavra": "Báwo ni?",
+     "pronuncia": "bá-uo ni",
+     "significado": "Como vai?"
+    },
+    {
+     "palavra": "Mo wà dáadáa",
+     "pronuncia": "mo uá dá-a-dá-a",
+     "significado": "Estou bem"
+    },
+    {
+     "palavra": "Ó dàbọ̀",
+     "pronuncia": "ô dá-bó",
+     "significado": "Tchau"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-02",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 2: Cortesia",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 2,
+   "tema": "Cortesia",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ẹ ṣé",
+     "pronuncia": "ê xê",
+     "significado": "Obrigado"
+    },
+    {
+     "palavra": "Ẹ jọ̀ọ́",
+     "pronuncia": "ê djó-ó",
+     "significado": "Por favor"
+    },
+    {
+     "palavra": "Bẹ́ẹ̀ ni",
+     "pronuncia": "bê-ê ni",
+     "significado": "Sim"
+    },
+    {
+     "palavra": "Rárá",
+     "pronuncia": "rá-rá",
+     "significado": "Não"
+    },
+    {
+     "palavra": "Ẹ má bínú",
+     "pronuncia": "ê má bí-nu",
+     "significado": "Desculpe"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-03",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 3: Números de 1 a 5",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 3,
+   "tema": "Números de 1 a 5",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ọ̀kan",
+     "pronuncia": "ó-kan",
+     "significado": "Um"
+    },
+    {
+     "palavra": "Èjì",
+     "pronuncia": "ê-dji",
+     "significado": "Dois"
+    },
+    {
+     "palavra": "Ẹ̀ta",
+     "pronuncia": "é-ta",
+     "significado": "Três"
+    },
+    {
+     "palavra": "Ẹ̀rin",
+     "pronuncia": "é-rin",
+     "significado": "Quatro"
+    },
+    {
+     "palavra": "Àrún",
+     "pronuncia": "á-run",
+     "significado": "Cinco"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-04",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 4: Números de 6 a 10",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 4,
+   "tema": "Números de 6 a 10",
+   "status": "aprovado",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ẹ̀fà",
+     "pronuncia": "é-fa",
+     "significado": "Seis"
+    },
+    {
+     "palavra": "Èje",
+     "pronuncia": "ê-dje",
+     "significado": "Sete"
+    },
+    {
+     "palavra": "Ẹ̀jọ",
+     "pronuncia": "é-djó",
+     "significado": "Oito"
+    },
+    {
+     "palavra": "Ẹ̀sán",
+     "pronuncia": "é-san",
+     "significado": "Nove"
+    },
+    {
+     "palavra": "Ẹ̀wá",
+     "pronuncia": "é-ua",
+     "significado": "Dez"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-05",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 5: Família",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 5,
+   "tema": "Família",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ìyá",
+     "pronuncia": "í-iá",
+     "significado": "Mãe"
+    },
+    {
+     "palavra": "Bàbá",
+     "pronuncia": "bá-bá",
+     "significado": "Pai"
+    },
+    {
+     "palavra": "Ẹ̀gbọ́n",
+     "pronuncia": "é-gbón",
+     "significado": "Irmão ou irmã mais velho"
+    },
+    {
+     "palavra": "Àbúrò",
+     "pronuncia": "á-bú-ró",
+     "significado": "Irmão ou irmã mais novo"
+    },
+    {
+     "palavra": "Ọmọ",
+     "pronuncia": "ó-mó",
+     "significado": "Criança, filho"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-06",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 6: Comida e bebida",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 6,
+   "tema": "Comida e bebida",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Omi",
+     "pronuncia": "ô-mi",
+     "significado": "Água"
+    },
+    {
+     "palavra": "Oúnjẹ",
+     "pronuncia": "o-ún-djé",
+     "significado": "Comida"
+    },
+    {
+     "palavra": "Ẹja",
+     "pronuncia": "é-dja",
+     "significado": "Peixe"
+    },
+    {
+     "palavra": "Ẹ̀bà",
+     "pronuncia": "é-ba",
+     "significado": "Massa de mandioca"
+    },
+    {
+     "palavra": "Ọ̀gẹ̀dẹ̀",
+     "pronuncia": "ó-gué-dé",
+     "significado": "Banana"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-07",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 7: Música e dança",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 7,
+   "tema": "Música e dança",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Orin",
+     "pronuncia": "ô-rin",
+     "significado": "Canção"
+    },
+    {
+     "palavra": "Ijó",
+     "pronuncia": "i-djô",
+     "significado": "Dança"
+    },
+    {
+     "palavra": "Kọrin",
+     "pronuncia": "kó-rin",
+     "significado": "Cantar"
+    },
+    {
+     "palavra": "Ìlù",
+     "pronuncia": "í-lu",
+     "significado": "Tambor"
+    },
+    {
+     "palavra": "Àríyá",
+     "pronuncia": "á-rí-iá",
+     "significado": "Festa"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-08",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 8: Natureza",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 8,
+   "tema": "Natureza",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Oòrùn",
+     "pronuncia": "o-ô-run",
+     "significado": "Sol"
+    },
+    {
+     "palavra": "Òṣùpá",
+     "pronuncia": "ô-xu-pá",
+     "significado": "Lua"
+    },
+    {
+     "palavra": "Odò",
+     "pronuncia": "o-dô",
+     "significado": "Rio"
+    },
+    {
+     "palavra": "Òjò",
+     "pronuncia": "ô-djô",
+     "significado": "Chuva"
+    },
+    {
+     "palavra": "Igi",
+     "pronuncia": "i-gui",
+     "significado": "Árvore"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-09",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 9: O tempo",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 9,
+   "tema": "O tempo",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Òní",
+     "pronuncia": "ô-ní",
+     "significado": "Hoje"
+    },
+    {
+     "palavra": "Ọ̀la",
+     "pronuncia": "ó-la",
+     "significado": "Amanhã"
+    },
+    {
+     "palavra": "Àná",
+     "pronuncia": "á-ná",
+     "significado": "Ontem"
+    },
+    {
+     "palavra": "Ọ̀sán",
+     "pronuncia": "ó-san",
+     "significado": "Tarde"
+    },
+    {
+     "palavra": "Òru",
+     "pronuncia": "ô-ru",
+     "significado": "Madrugada, noite"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-10",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 10: Sentimentos",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 10,
+   "tema": "Sentimentos",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ìfẹ́",
+     "pronuncia": "í-fé",
+     "significado": "Amor"
+    },
+    {
+     "palavra": "Ayọ̀",
+     "pronuncia": "a-ió",
+     "significado": "Alegria"
+    },
+    {
+     "palavra": "Ìbànújẹ́",
+     "pronuncia": "í-ba-nú-djé",
+     "significado": "Tristeza"
+    },
+    {
+     "palavra": "Mo nífẹ̀ẹ́ rẹ",
+     "pronuncia": "mo ní-fé-é ré",
+     "significado": "Eu te amo"
+    },
+    {
+     "palavra": "Ẹ̀rù",
+     "pronuncia": "é-ru",
+     "significado": "Medo"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-11",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 11: Perguntas",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 11,
+   "tema": "Perguntas",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ta ni?",
+     "pronuncia": "tá ni",
+     "significado": "Quem?"
+    },
+    {
+     "palavra": "Kí ni?",
+     "pronuncia": "kí ni",
+     "significado": "O quê?"
+    },
+    {
+     "palavra": "Níbo?",
+     "pronuncia": "ní-bo",
+     "significado": "Onde?"
+    },
+    {
+     "palavra": "Nígbà wo?",
+     "pronuncia": "ní-gbá uo",
+     "significado": "Quando?"
+    },
+    {
+     "palavra": "Mélòó?",
+     "pronuncia": "mê-lô-ô",
+     "significado": "Quantos?"
+    }
+   ]
+  },
+  {
+   "id": "licao-ioruba-12",
+   "tipo": "licao",
+   "titulo": "Iorubá · Lição 12: Frases do dia a dia",
+   "serie": "Línguas da África",
+   "lingua": "Iorubá",
+   "licao": 12,
+   "tema": "Frases do dia a dia",
+   "status": "roteiro",
+   "origem": "programa",
+   "cor": "#E77F33",
+   "palavras": [
+    {
+     "palavra": "Ẹ káàbọ̀",
+     "pronuncia": "ê ká-á-bó",
+     "significado": "Bem-vindo"
+    },
+    {
+     "palavra": "Ó dàárọ̀",
+     "pronuncia": "ô dá-á-ró",
+     "significado": "Boa noite (até amanhã)"
+    },
+    {
+     "palavra": "Ẹ kú iṣẹ́",
+     "pronuncia": "ê kú i-xé",
+     "significado": "Bom trabalho"
+    },
+    {
+     "palavra": "Ó yá",
+     "pronuncia": "ô iá",
+     "significado": "Vamos! Pronto!"
+    },
+    {
+     "palavra": "Àṣẹ",
+     "pronuncia": "á-xé",
+     "significado": "Axé (assim seja)"
+    }
+   ]
+  },
+  {
+   "id": "inov-ishango",
+   "tipo": "curiosidade",
+   "titulo": "Osso de Ishango",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Osso com entalhes agrupados, achado às margens do lago Eduardo: um dos registros matemáticos mais antigos.",
+   "destaques": [
+    "Guardado em Bruxelas",
+    "Há quem veja nele um calendário lunar"
+   ],
+   "detalhe": "República Democrática do Congo · cerca de 20.000 anos · Matemática"
+  },
+  {
+   "id": "inov-lebombo",
+   "tipo": "curiosidade",
+   "titulo": "Osso de Lebombo",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Fíbula de babuíno com 29 marcas, um dos mais antigos instrumentos de contagem conhecidos.",
+   "destaques": [
+    "Achado nas montanhas Lebombo",
+    "Parecido com bastões de contagem usados até hoje"
+   ],
+   "detalhe": "Essuatíni e África do Sul · cerca de 43.000 anos · Matemática"
+  },
+  {
+   "id": "inov-hieroglifos",
+   "tipo": "curiosidade",
+   "titulo": "Escrita e papiro",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Os egípcios criaram uma das primeiras escritas e o papiro, suporte que dominou o Mediterrâneo por milênios.",
+   "destaques": [
+    "A palavra 'papel' vem de papiro",
+    "Hieróglifos decifrados com a Pedra de Roseta"
+   ],
+   "detalhe": "Egito · cerca de 3.200 a.C. · Comunicação"
+  },
+  {
+   "id": "inov-qarawiyyin",
+   "tipo": "curiosidade",
+   "titulo": "Universidade al-Qarawiyyin",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Fundada por uma mulher, Fátima al-Fihri, é considerada a universidade mais antiga ainda em funcionamento.",
+   "destaques": [
+    "Reconhecida pela UNESCO e pelo Guinness",
+    "Biblioteca com manuscritos raros"
+   ],
+   "detalhe": "Fez, Marrocos · 859 · Educação"
+  },
+  {
+   "id": "inov-nko",
+   "tipo": "curiosidade",
+   "titulo": "Alfabeto N'Ko",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Criado por Solomana Kanté para escrever as línguas mandingas, é usado até hoje na África Ocidental.",
+   "destaques": [
+    "Escrito da direita para a esquerda",
+    "'N'ko' quer dizer 'eu digo'"
+   ],
+   "detalhe": "Guiné · 1949 · Escrita"
+  },
+  {
+   "id": "inov-vai",
+   "tipo": "curiosidade",
+   "titulo": "Escrita Vai",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Silabário inventado por Momolu Duwalu Bukele, um dos raros sistemas de escrita criados na África subsaariana.",
+   "destaques": [
+    "Mais de 200 sinais",
+    "Usado em cartas e registros comerciais"
+   ],
+   "detalhe": "Libéria · década de 1830 · Escrita"
+  },
+  {
+   "id": "inov-transplante",
+   "tipo": "curiosidade",
+   "titulo": "Primeiro transplante de coração",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "No hospital Groote Schuur, a equipe de Christiaan Barnard fez o primeiro transplante de coração entre humanos.",
+   "destaques": [
+    "3 de dezembro de 1967",
+    "Hamilton Naki, técnico de laboratório, ensinou cirurgia experimental a gerações de médicos"
+   ],
+   "detalhe": "Cidade do Cabo, África do Sul · 1967 · Medicina"
+  },
+  {
+   "id": "inov-mpemba",
+   "tipo": "curiosidade",
+   "titulo": "Efeito Mpemba",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Um estudante notou que a mistura de sorvete quente congelava antes da fria; o fenômeno ganhou seu nome.",
+   "destaques": [
+    "Erasto Mpemba, aos 13 anos",
+    "Ainda debatido pelos físicos"
+   ],
+   "detalhe": "Tanzânia · 1963 · Física"
+  },
+  {
+   "id": "inov-mpesa",
+   "tipo": "curiosidade",
+   "titulo": "M-Pesa",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Dinheiro pelo celular, sem conta em banco: mudou a vida de milhões de pessoas antes dos smartphones.",
+   "destaques": [
+    "Funciona por SMS",
+    "Usado em vários países africanos"
+   ],
+   "detalhe": "Quênia · 2007 · Tecnologia"
+  },
+  {
+   "id": "inov-ushahidi",
+   "tipo": "curiosidade",
+   "titulo": "Ushahidi",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Plataforma de mapas colaborativos criada para registrar a violência pós-eleitoral; hoje ajuda em desastres no mundo todo.",
+   "destaques": [
+    "'Ushahidi' é 'testemunho' em suaíli",
+    "Software livre"
+   ],
+   "detalhe": "Quênia · 2008 · Tecnologia"
+  },
+  {
+   "id": "inov-drones-sangue",
+   "tipo": "curiosidade",
+   "titulo": "Drones que levam sangue",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Ruanda foi o primeiro país a usar drones em escala nacional para entregar sangue a hospitais.",
+   "destaques": [
+    "Pacotes descem de paraquedas",
+    "Entrega em minutos nas colinas"
+   ],
+   "detalhe": "Ruanda · 2016 · Saúde"
+  },
+  {
+   "id": "inov-santos-dumont",
+   "tipo": "curiosidade",
+   "titulo": "14-bis",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Alberto Santos-Dumont voou com o 14-bis em Paris, decolando por meios próprios diante de testemunhas.",
+   "destaques": [
+    "Recorde reconhecido pelo Aeroclube da França",
+    "Também criou o Demoiselle"
+   ],
+   "detalhe": "Brasil (voo em Paris) · 1906 · Aviação"
+  },
+  {
+   "id": "inov-landell",
+   "tipo": "curiosidade",
+   "titulo": "Padre Landell de Moura",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "O padre gaúcho fez experiências de transmissão de voz sem fio e obteve patentes nos Estados Unidos.",
+   "destaques": [
+    "Pioneiro do rádio e das telecomunicações",
+    "Patentes americanas de 1904"
+   ],
+   "detalhe": "Brasil · 1904 · Telecomunicações"
+  },
+  {
+   "id": "inov-vital-brazil",
+   "tipo": "curiosidade",
+   "titulo": "Soro antiofídico",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Vital Brazil descobriu que cada veneno de cobra pede um soro específico e fundou o Instituto Butantan.",
+   "destaques": [
+    "Soros contra jararaca e cascavel",
+    "Butantan, em São Paulo"
+   ],
+   "detalhe": "Brasil · 1901 · Saúde"
+  },
+  {
+   "id": "inov-chagas",
+   "tipo": "curiosidade",
+   "titulo": "Doença de Chagas",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Carlos Chagas descreveu o parasita, o barbeiro transmissor e a doença: caso único na medicina.",
+   "destaques": [
+    "Trabalho em Lassance, Minas Gerais",
+    "Instituto Oswaldo Cruz"
+   ],
+   "detalhe": "Brasil · 1909 · Saúde"
+  },
+  {
+   "id": "inov-brt",
+   "tipo": "curiosidade",
+   "titulo": "Ônibus BRT",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Curitiba criou as canaletas exclusivas e as estações-tubo que inspiraram o BRT pelo mundo.",
+   "destaques": [
+    "Embarque no nível do ônibus",
+    "Copiado de Bogotá a Joanesburgo"
+   ],
+   "detalhe": "Curitiba, Brasil · 1974 · Mobilidade"
+  },
+  {
+   "id": "inov-urna",
+   "tipo": "curiosidade",
+   "titulo": "Urna eletrônica",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "O Brasil foi pioneiro em eleições totalmente eletrônicas, com resultados no mesmo dia.",
+   "destaques": [
+    "Totalmente eletrônica desde 2000",
+    "Mais de 150 milhões de eleitores"
+   ],
+   "detalhe": "Brasil · 1996 · Democracia"
+  },
+  {
+   "id": "inov-flex",
+   "tipo": "curiosidade",
+   "titulo": "Carro flex",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Motores que rodam com etanol, gasolina ou qualquer mistura viraram padrão no Brasil.",
+   "destaques": [
+    "Etanol de cana desde o Proálcool, de 1975",
+    "A maioria dos carros novos é flex"
+   ],
+   "detalhe": "Brasil · 2003 · Energia"
+  },
+  {
+   "id": "inov-embrapa",
+   "tipo": "curiosidade",
+   "titulo": "Agricultura tropical",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A Embrapa adaptou a soja e outras culturas ao solo ácido do Cerrado, antes considerado improdutivo.",
+   "destaques": [
+    "Correção do solo com calcário",
+    "Fixação biológica de nitrogênio"
+   ],
+   "detalhe": "Brasil · 1973 · Ciência"
+  },
+  {
+   "id": "inov-pix",
+   "tipo": "curiosidade",
+   "titulo": "Pix",
+   "serie": "Inovações",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Sistema de pagamentos instantâneos do Banco Central, gratuito para pessoas, a qualquer hora.",
+   "destaques": [
+    "Usado pela maioria dos brasileiros adultos",
+    "Inspira outros bancos centrais"
+   ],
+   "detalhe": "Brasil · 2020 · Tecnologia"
+  },
+  {
+   "id": "nobel-luthuli",
+   "tipo": "curiosidade",
+   "titulo": "Albert Luthuli",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro africano negro a receber um Nobel, pela luta não violenta contra o apartheid.",
+   "destaques": [
+    "Presidente do Congresso Nacional Africano",
+    "Nascido no atual Zimbábue"
+   ],
+   "detalhe": "África do Sul · 1960 · Paz"
+  },
+  {
+   "id": "nobel-sadat",
+   "tipo": "curiosidade",
+   "titulo": "Anwar Sadat",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Dividiu o prêmio com Menachem Begin pelos acordos de Camp David entre Egito e Israel.",
+   "destaques": [
+    "Primeiro egípcio premiado",
+    "Assassinado em 1981"
+   ],
+   "detalhe": "Egito · 1978 · Paz"
+  },
+  {
+   "id": "nobel-tutu",
+   "tipo": "curiosidade",
+   "titulo": "Desmond Tutu",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Arcebispo anglicano que liderou a resistência pacífica ao apartheid.",
+   "destaques": [
+    "Presidiu a Comissão da Verdade e Reconciliação",
+    "Criou a expressão 'nação arco-íris'"
+   ],
+   "detalhe": "África do Sul · 1984 · Paz"
+  },
+  {
+   "id": "nobel-soyinka",
+   "tipo": "curiosidade",
+   "titulo": "Wole Soyinka",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro africano negro a ganhar o Nobel de Literatura, com teatro inspirado na cultura iorubá.",
+   "destaques": [
+    "Peça A Morte e o Cavaleiro do Rei",
+    "Preso durante a guerra civil nigeriana"
+   ],
+   "detalhe": "Nigéria · 1986 · Literatura"
+  },
+  {
+   "id": "nobel-mahfouz",
+   "tipo": "curiosidade",
+   "titulo": "Naguib Mahfouz",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro escritor de língua árabe premiado, retratou a vida do Cairo em mais de 30 romances.",
+   "destaques": [
+    "Trilogia do Cairo",
+    "Escreveu também roteiros de cinema"
+   ],
+   "detalhe": "Egito · 1988 · Literatura"
+  },
+  {
+   "id": "nobel-gordimer",
+   "tipo": "curiosidade",
+   "titulo": "Nadine Gordimer",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Seus romances denunciaram o apartheid e vários foram proibidos no próprio país.",
+   "destaques": [
+    "O Conservador, Booker Prize de 1974",
+    "Militante do Congresso Nacional Africano"
+   ],
+   "detalhe": "África do Sul · 1991 · Literatura"
+  },
+  {
+   "id": "nobel-mandela",
+   "tipo": "curiosidade",
+   "titulo": "Nelson Mandela e F. W. de Klerk",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Premiados juntos pelo fim pacífico do apartheid e pela base de uma África do Sul democrática.",
+   "destaques": [
+    "Mandela passou 27 anos preso",
+    "Primeiro presidente eleito por todos, em 1994"
+   ],
+   "detalhe": "África do Sul · 1993 · Paz"
+  },
+  {
+   "id": "nobel-zewail",
+   "tipo": "curiosidade",
+   "titulo": "Ahmed Zewail",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Pai da femtoquímica: filmou reações químicas em frações de trilionésimos de segundo.",
+   "destaques": [
+    "Usou pulsos de laser ultrarrápidos",
+    "Primeiro Nobel de ciência de um árabe"
+   ],
+   "detalhe": "Egito · 1999 · Química"
+  },
+  {
+   "id": "nobel-annan",
+   "tipo": "curiosidade",
+   "titulo": "Kofi Annan",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Secretário-geral da ONU, premiado junto com a própria organização por um mundo mais organizado e pacífico.",
+   "destaques": [
+    "Primeiro secretário-geral da África subsaariana",
+    "Lançou as Metas do Milênio"
+   ],
+   "detalhe": "Gana · 2001 · Paz"
+  },
+  {
+   "id": "nobel-coetzee",
+   "tipo": "curiosidade",
+   "titulo": "J. M. Coetzee",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Autor de Desonra, foi o primeiro escritor a ganhar duas vezes o Booker Prize.",
+   "destaques": [
+    "Esperando os Bárbaros",
+    "Hoje vive na Austrália"
+   ],
+   "detalhe": "África do Sul · 2003 · Literatura"
+  },
+  {
+   "id": "nobel-maathai",
+   "tipo": "curiosidade",
+   "titulo": "Wangari Maathai",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira africana a receber um Nobel; seu Movimento Cinturão Verde plantou dezenas de milhões de árvores.",
+   "destaques": [
+    "Primeira mulher doutora da África Oriental e Central",
+    "Ligou meio ambiente, democracia e paz"
+   ],
+   "detalhe": "Quênia · 2004 · Paz"
+  },
+  {
+   "id": "nobel-elbaradei",
+   "tipo": "curiosidade",
+   "titulo": "Mohamed ElBaradei",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Dirigiu a Agência Internacional de Energia Atômica e dividiu o prêmio com ela.",
+   "destaques": [
+    "Trabalho contra a proliferação nuclear",
+    "Diplomata e jurista"
+   ],
+   "detalhe": "Egito · 2005 · Paz"
+  },
+  {
+   "id": "nobel-sirleaf-gbowee",
+   "tipo": "curiosidade",
+   "titulo": "Ellen Johnson Sirleaf e Leymah Gbowee",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Premiadas pela luta não violenta pela segurança das mulheres e por sua participação na paz.",
+   "destaques": [
+    "Sirleaf, primeira presidenta eleita da África",
+    "Gbowee uniu cristãs e muçulmanas pela paz"
+   ],
+   "detalhe": "Libéria · 2011 · Paz"
+  },
+  {
+   "id": "nobel-quarteto",
+   "tipo": "curiosidade",
+   "titulo": "Quarteto do Diálogo Nacional",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Sindicatos, patrões, advogados e direitos humanos salvaram a transição democrática após 2011.",
+   "destaques": [
+    "Quatro organizações da sociedade civil",
+    "Depois da Revolução de Jasmim"
+   ],
+   "detalhe": "Tunísia · 2015 · Paz"
+  },
+  {
+   "id": "nobel-mukwege",
+   "tipo": "curiosidade",
+   "titulo": "Denis Mukwege",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Ginecologista que tratou dezenas de milhares de mulheres vítimas de violência na guerra.",
+   "destaques": [
+    "Hospital de Panzi, em Bukavu",
+    "Dividiu o prêmio com Nadia Murad"
+   ],
+   "detalhe": "República Democrática do Congo · 2018 · Paz"
+  },
+  {
+   "id": "nobel-abiy",
+   "tipo": "curiosidade",
+   "titulo": "Abiy Ahmed",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Premiado pelo acordo de paz com a Eritreia, que encerrou duas décadas de impasse.",
+   "destaques": [
+    "Fronteira reaberta em 2018",
+    "Primeiro-ministro da Etiópia"
+   ],
+   "detalhe": "Etiópia · 2019 · Paz"
+  },
+  {
+   "id": "nobel-gurnah",
+   "tipo": "curiosidade",
+   "titulo": "Abdulrazak Gurnah",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Nascido em Zanzibar, escreve sobre colonialismo e o destino de refugiados entre culturas.",
+   "destaques": [
+    "Romance Paraíso",
+    "Professor na Inglaterra"
+   ],
+   "detalhe": "Tanzânia · 2021 · Literatura"
+  },
+  {
+   "id": "nobel-theiler",
+   "tipo": "curiosidade",
+   "titulo": "Max Theiler",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Criou a vacina contra a febre amarela, doença que marcou a história do Brasil e da África.",
+   "destaques": [
+    "Vacina 17D, usada até hoje",
+    "Nascido em Pretória"
+   ],
+   "detalhe": "África do Sul · 1951 · Medicina"
+  },
+  {
+   "id": "nobel-cormack",
+   "tipo": "curiosidade",
+   "titulo": "Allan Cormack",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Físico da Cidade do Cabo que criou a matemática por trás da tomografia computadorizada.",
+   "destaques": [
+    "Dividiu o prêmio com Godfrey Hounsfield",
+    "Exame usado em hospitais do mundo todo"
+   ],
+   "detalhe": "África do Sul · 1979 · Medicina"
+  },
+  {
+   "id": "nobel-brenner",
+   "tipo": "curiosidade",
+   "titulo": "Sydney Brenner",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Usou um vermezinho, o C. elegans, para entender como os genes controlam o desenvolvimento.",
+   "destaques": [
+    "Ajudou a decifrar o código genético",
+    "Nascido em Germiston"
+   ],
+   "detalhe": "África do Sul · 2002 · Medicina"
+  },
+  {
+   "id": "nobel-levitt",
+   "tipo": "curiosidade",
+   "titulo": "Michael Levitt",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Nascido em Pretória, criou modelos de computador para simular reações químicas complexas.",
+   "destaques": [
+    "Química que vai do átomo à proteína",
+    "Prêmio dividido com Karplus e Warshel"
+   ],
+   "detalhe": "África do Sul · 2013 · Química"
+  },
+  {
+   "id": "nobel-camus",
+   "tipo": "curiosidade",
+   "titulo": "Albert Camus",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Nascido na Argélia, o autor de O Estrangeiro ambientou seus livros na luz de Argel e Orã.",
+   "destaques": [
+    "A Peste se passa em Orã",
+    "Um dos mais jovens premiados, aos 44 anos"
+   ],
+   "detalhe": "Argélia · 1957 · Literatura"
+  },
+  {
+   "id": "nobel-cohen-tannoudji",
+   "tipo": "curiosidade",
+   "titulo": "Claude Cohen-Tannoudji",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Nascido em Constantina, ajudou a resfriar átomos com laser a temperaturas quase no zero absoluto.",
+   "destaques": [
+    "Base dos relógios atômicos modernos",
+    "Físico francês de origem argelina"
+   ],
+   "detalhe": "Argélia · 1997 · Física"
+  },
+  {
+   "id": "nobel-medawar",
+   "tipo": "curiosidade",
+   "titulo": "Peter Medawar",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Nascido em Petrópolis, no Rio de Janeiro, descobriu a tolerância imunológica, base dos transplantes.",
+   "destaques": [
+    "Único Nobel nascido no Brasil",
+    "Fez carreira na Inglaterra"
+   ],
+   "detalhe": "Brasil · 1960 · Medicina"
+  },
+  {
+   "id": "nobel-chagas",
+   "tipo": "curiosidade",
+   "titulo": "Carlos Chagas",
+   "serie": "Prêmio Nobel",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Descobriu sozinho o parasita, o inseto transmissor e a doença que leva seu nome, em 1909.",
+   "destaques": [
+    "Indicado ao Nobel em 1913 e 1921",
+    "Feito único na história da medicina"
+   ],
+   "detalhe": "Brasil · 1913 · Medicina (indicado)"
+  },
+  {
+   "id": "oscar-ainda-estou-aqui",
+   "tipo": "curiosidade",
+   "titulo": "Ainda Estou Aqui",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro Oscar de um filme brasileiro, a história de Eunice Paiva, dirigida por Walter Salles.",
+   "destaques": [
+    "Fernanda Torres indicada a melhor atriz",
+    "Também indicado a melhor filme"
+   ],
+   "detalhe": "Brasil · 2025 · Filme internacional"
+  },
+  {
+   "id": "oscar-fernanda-torres",
+   "tipo": "curiosidade",
+   "titulo": "Fernanda Torres",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Indicada por Ainda Estou Aqui, 26 anos depois da indicação da mãe, Fernanda Montenegro.",
+   "destaques": [
+    "Venceu o Globo de Ouro de 2025",
+    "Mãe e filha indicadas pela mesma categoria"
+   ],
+   "detalhe": "Brasil · 2025 · Melhor atriz (indicada)"
+  },
+  {
+   "id": "oscar-montenegro",
+   "tipo": "curiosidade",
+   "titulo": "Fernanda Montenegro",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira brasileira indicada ao Oscar de melhor atriz, por Central do Brasil.",
+   "destaques": [
+    "Central do Brasil, de Walter Salles",
+    "Urso de Prata em Berlim"
+   ],
+   "detalhe": "Brasil · 1999 · Melhor atriz (indicada)"
+  },
+  {
+   "id": "oscar-cidade-de-deus",
+   "tipo": "curiosidade",
+   "titulo": "Cidade de Deus",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Recebeu quatro indicações: direção, roteiro adaptado, fotografia e montagem.",
+   "destaques": [
+    "Direção de Fernando Meirelles e Kátia Lund",
+    "Elenco de jovens atores das comunidades"
+   ],
+   "detalhe": "Brasil · 2004 · Quatro indicações"
+  },
+  {
+   "id": "oscar-orfeu-negro",
+   "tipo": "curiosidade",
+   "titulo": "Orfeu Negro",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Filmado no carnaval do Rio, com elenco negro brasileiro, levou o Oscar pela França.",
+   "destaques": [
+    "Baseado na peça de Vinicius de Moraes",
+    "Trilha de Tom Jobim e Luiz Bonfá"
+   ],
+   "detalhe": "Brasil e França · 1960 · Filme estrangeiro"
+  },
+  {
+   "id": "oscar-pagador",
+   "tipo": "curiosidade",
+   "titulo": "O Pagador de Promessas",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro filme brasileiro indicado ao Oscar, depois de ganhar a Palma de Ouro em Cannes.",
+   "destaques": [
+    "Direção de Anselmo Duarte",
+    "Peça de Dias Gomes"
+   ],
+   "detalhe": "Brasil · 1963 · Filme estrangeiro (indicado)"
+  },
+  {
+   "id": "oscar-z",
+   "tipo": "curiosidade",
+   "titulo": "Z",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Thriller político de Costa-Gavras, rodado na Argélia, deu à Argélia o primeiro Oscar de filme estrangeiro da África.",
+   "destaques": [
+    "Ganhou também melhor montagem",
+    "Indicado a melhor filme"
+   ],
+   "detalhe": "Argélia · 1970 · Filme estrangeiro"
+  },
+  {
+   "id": "oscar-costa-do-marfim",
+   "tipo": "curiosidade",
+   "titulo": "Preto e Branco em Cores",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro longa de Jean-Jacques Annaud, inscrito pela Costa do Marfim, satiriza a guerra colonial.",
+   "destaques": [
+    "Rodado na Costa do Marfim",
+    "Comédia sobre a Primeira Guerra na África"
+   ],
+   "detalhe": "Costa do Marfim · 1977 · Filme estrangeiro"
+  },
+  {
+   "id": "oscar-theron",
+   "tipo": "curiosidade",
+   "titulo": "Charlize Theron",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira atriz nascida na África a ganhar o Oscar de melhor atriz, por Monster.",
+   "destaques": [
+    "Nascida em Benoni",
+    "Fundou um projeto contra o HIV entre jovens africanos"
+   ],
+   "detalhe": "África do Sul · 2004 · Melhor atriz"
+  },
+  {
+   "id": "oscar-tsotsi",
+   "tipo": "curiosidade",
+   "titulo": "Tsotsi",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Drama falado em tsotsitaal, a gíria dos bairros de Joanesburgo, deu o Oscar à África do Sul.",
+   "destaques": [
+    "Direção de Gavin Hood",
+    "Baseado em romance de Athol Fugard"
+   ],
+   "detalhe": "África do Sul · 2006 · Filme estrangeiro"
+  },
+  {
+   "id": "oscar-lupita",
+   "tipo": "curiosidade",
+   "titulo": "Lupita Nyong'o",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Ganhou o Oscar no seu primeiro longa-metragem, 12 Anos de Escravidão.",
+   "destaques": [
+    "Queniana nascida no México",
+    "Primeira queniana premiada"
+   ],
+   "detalhe": "Quênia · 2014 · Atriz coadjuvante"
+  },
+  {
+   "id": "oscar-polvo",
+   "tipo": "curiosidade",
+   "titulo": "Professor Polvo",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Um mergulhador e sua amizade com um polvo numa floresta de algas da Cidade do Cabo.",
+   "destaques": [
+    "Filmado durante quase um ano",
+    "Produção do Sea Change Project"
+   ],
+   "detalhe": "África do Sul · 2021 · Documentário"
+  },
+  {
+   "id": "oscar-timbuktu",
+   "tipo": "curiosidade",
+   "titulo": "Timbuktu",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira indicação da Mauritânia, sobre a ocupação de Tombuctu por extremistas.",
+   "destaques": [
+    "Direção de Abderrahmane Sissako",
+    "Sete prêmios César na França"
+   ],
+   "detalhe": "Mauritânia · 2015 · Filme estrangeiro (indicado)"
+  },
+  {
+   "id": "oscar-ben-hania",
+   "tipo": "curiosidade",
+   "titulo": "Kaouther Ben Hania",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A diretora tunisiana já teve dois filmes indicados ao Oscar: O Homem que Vendeu sua Pele e Four Daughters.",
+   "destaques": [
+    "Primeira indicação da Tunísia, em 2021",
+    "Mistura de documentário e ficção"
+   ],
+   "detalhe": "Tunísia · 2024 · Documentário (indicada)"
+  },
+  {
+   "id": "oscar-menino-mundo",
+   "tipo": "curiosidade",
+   "titulo": "O Menino e o Mundo",
+   "serie": "África e Brasil no Oscar",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira animação brasileira indicada ao Oscar, feita com lápis de cor, giz e colagem.",
+   "destaques": [
+    "Direção de Alê Abreu",
+    "Quase sem diálogos"
+   ],
+   "detalhe": "Brasil · 2016 · Animação (indicado)"
+  },
+  {
+   "id": "br-ouro-preto",
+   "tipo": "curiosidade",
+   "titulo": "Ouro Preto",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro patrimônio mundial do Brasil, a antiga Vila Rica foi o coração do ciclo do ouro no século XVIII.",
+   "destaques": [
+    "Igrejas barrocas com obras de Aleijadinho",
+    "Riqueza extraída em grande parte por mãos africanas escravizadas"
+   ],
+   "detalhe": "Minas Gerais, Brasil · 1980 · Cultural"
+  },
+  {
+   "id": "br-olinda",
+   "tipo": "curiosidade",
+   "titulo": "Centro Histórico de Olinda",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Fundada em 1535, Olinda mistura ladeiras, igrejas coloniais e um dos carnavais mais famosos do país.",
+   "destaques": [
+    "Bonecos gigantes no carnaval",
+    "Vista para o mar e para o Recife"
+   ],
+   "detalhe": "Pernambuco, Brasil · 1982 · Cultural"
+  },
+  {
+   "id": "br-sao-miguel",
+   "tipo": "curiosidade",
+   "titulo": "Ruínas de São Miguel das Missões",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Restos de uma redução jesuítica guarani, patrimônio compartilhado com quatro missões na Argentina.",
+   "destaques": [
+    "Igreja de pedra do século XVIII",
+    "Espetáculo de som e luz à noite"
+   ],
+   "detalhe": "Rio Grande do Sul, Brasil · 1983 · Cultural"
+  },
+  {
+   "id": "br-salvador",
+   "tipo": "curiosidade",
+   "titulo": "Centro Histórico de Salvador",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira capital do Brasil, Salvador guarda no Pelourinho a maior presença de arquitetura colonial das Américas.",
+   "destaques": [
+    "Berço do samba de roda e da capoeira",
+    "Uma das cidades mais negras fora da África"
+   ],
+   "detalhe": "Bahia, Brasil · 1985 · Cultural"
+  },
+  {
+   "id": "br-congonhas",
+   "tipo": "curiosidade",
+   "titulo": "Santuário do Bom Jesus de Congonhas",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Os doze profetas de pedra-sabão esculpidos por Aleijadinho estão entre as obras-primas do barroco mundial.",
+   "destaques": [
+    "Esculturas feitas entre 1800 e 1805",
+    "Capelas com cenas da Paixão em madeira"
+   ],
+   "detalhe": "Minas Gerais, Brasil · 1985 · Cultural"
+  },
+  {
+   "id": "br-iguacu",
+   "tipo": "curiosidade",
+   "titulo": "Parque Nacional do Iguaçu",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "As cataratas do Iguaçu somam cerca de 275 quedas d'água na fronteira com a Argentina.",
+   "destaques": [
+    "Garganta do Diabo, a maior queda",
+    "Mata Atlântica com onças e quatis"
+   ],
+   "detalhe": "Paraná, Brasil · 1986 · Natural"
+  },
+  {
+   "id": "br-brasilia",
+   "tipo": "curiosidade",
+   "titulo": "Brasília",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Inaugurada em 1960, é um marco do urbanismo moderno reconhecido pela UNESCO.",
+   "destaques": [
+    "Plano de Lúcio Costa",
+    "Arquitetura de Oscar Niemeyer"
+   ],
+   "detalhe": "Distrito Federal, Brasil · 1987 · Cultural"
+  },
+  {
+   "id": "br-capivara",
+   "tipo": "curiosidade",
+   "titulo": "Serra da Capivara",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Abriga a maior concentração de pinturas rupestres das Américas, com milhares de anos de história.",
+   "destaques": [
+    "Mais de mil sítios arqueológicos",
+    "Pesquisas de Niède Guidon"
+   ],
+   "detalhe": "Piauí, Brasil · 1991 · Cultural"
+  },
+  {
+   "id": "br-sao-luis",
+   "tipo": "curiosidade",
+   "titulo": "Centro Histórico de São Luís",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Seus casarões cobertos de azulejos portugueses formam um dos maiores conjuntos coloniais do país.",
+   "destaques": [
+    "Terra do bumba meu boi",
+    "Capital brasileira do reggae"
+   ],
+   "detalhe": "Maranhão, Brasil · 1997 · Cultural"
+  },
+  {
+   "id": "br-diamantina",
+   "tipo": "curiosidade",
+   "titulo": "Diamantina",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cidade do ciclo dos diamantes, guarda a memória de Chica da Silva e as serestas nas janelas.",
+   "destaques": [
+    "Vesperata: músicos tocam das sacadas",
+    "Terra natal de Juscelino Kubitschek"
+   ],
+   "detalhe": "Minas Gerais, Brasil · 1999 · Cultural"
+  },
+  {
+   "id": "br-costa-descobrimento",
+   "tipo": "curiosidade",
+   "titulo": "Costa do Descobrimento",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Oito áreas protegidas de Mata Atlântica guardam uma das florestas mais ricas em espécies do planeta.",
+   "destaques": [
+    "Monte Pascoal",
+    "Árvores encontradas em nenhum outro lugar"
+   ],
+   "detalhe": "Bahia e Espírito Santo, Brasil · 1999 · Natural"
+  },
+  {
+   "id": "br-mata-atlantica-sudeste",
+   "tipo": "curiosidade",
+   "titulo": "Reservas da Mata Atlântica do Sudeste",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Um dos maiores trechos contínuos de Mata Atlântica do país, do Vale do Ribeira ao litoral paranaense.",
+   "destaques": [
+    "Cavernas do PETAR",
+    "Comunidades quilombolas e caiçaras"
+   ],
+   "detalhe": "São Paulo e Paraná, Brasil · 1999 · Natural"
+  },
+  {
+   "id": "br-amazonia-central",
+   "tipo": "curiosidade",
+   "titulo": "Complexo de Conservação da Amazônia Central",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Uma das maiores áreas protegidas de floresta tropical do mundo, com rios de águas pretas.",
+   "destaques": [
+    "Parque Nacional do Jaú",
+    "Botos, peixes-boi e arquipélagos fluviais"
+   ],
+   "detalhe": "Amazonas, Brasil · 2000 · Natural"
+  },
+  {
+   "id": "br-pantanal",
+   "tipo": "curiosidade",
+   "titulo": "Área de Conservação do Pantanal",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A maior planície alagável do planeta, onde as cheias ditam o ritmo da vida.",
+   "destaques": [
+    "Onças-pintadas e tuiuiús",
+    "Fazendas de gado pantaneiro"
+   ],
+   "detalhe": "Mato Grosso e Mato Grosso do Sul, Brasil · 2000 · Natural"
+  },
+  {
+   "id": "br-goias",
+   "tipo": "curiosidade",
+   "titulo": "Cidade de Goiás",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Antiga capital goiana, conserva o traçado do século XVIII e a casa da poeta Cora Coralina.",
+   "destaques": [
+    "Procissão do Fogaréu",
+    "Doces cristalizados famosos"
+   ],
+   "detalhe": "Goiás, Brasil · 2001 · Cultural"
+  },
+  {
+   "id": "br-noronha",
+   "tipo": "curiosidade",
+   "titulo": "Fernando de Noronha e Atol das Rocas",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Ilhas oceânicas onde golfinhos-rotadores se reúnem e tartarugas desovam.",
+   "destaques": [
+    "Atol das Rocas, o único atol do Atlântico Sul",
+    "Baía dos Golfinhos"
+   ],
+   "detalhe": "Pernambuco e Rio Grande do Norte, Brasil · 2001 · Natural"
+  },
+  {
+   "id": "br-cerrado",
+   "tipo": "curiosidade",
+   "titulo": "Chapada dos Veadeiros e Emas",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Protegem o Cerrado, a savana mais rica em espécies do mundo e berço de grandes rios.",
+   "destaques": [
+    "Cachoeiras e cânions",
+    "Emas, lobos-guarás e cupinzeiros que brilham à noite"
+   ],
+   "detalhe": "Goiás, Brasil · 2001 · Natural"
+  },
+  {
+   "id": "br-sao-cristovao",
+   "tipo": "curiosidade",
+   "titulo": "Praça São Francisco",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Praça do tempo em que Portugal e Espanha tinham o mesmo rei, num dos núcleos urbanos mais antigos do país.",
+   "destaques": [
+    "Convento e igreja de São Francisco",
+    "Quarta cidade mais antiga do Brasil"
+   ],
+   "detalhe": "São Cristóvão, Sergipe, Brasil · 2010 · Cultural"
+  },
+  {
+   "id": "br-rio",
+   "tipo": "curiosidade",
+   "titulo": "Rio de Janeiro: paisagens cariocas",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira paisagem urbana do mundo reconhecida pela UNESCO, entre a montanha e o mar.",
+   "destaques": [
+    "Pão de Açúcar, Corcovado e Floresta da Tijuca",
+    "Calçadão de Copacabana de Burle Marx"
+   ],
+   "detalhe": "Rio de Janeiro, Brasil · 2012 · Cultural"
+  },
+  {
+   "id": "br-pampulha",
+   "tipo": "curiosidade",
+   "titulo": "Conjunto Moderno da Pampulha",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Projeto de Oscar Niemeyer dos anos 1940 que anunciou a arquitetura moderna brasileira.",
+   "destaques": [
+    "Igreja de São Francisco de Assis",
+    "Painéis de Portinari"
+   ],
+   "detalhe": "Belo Horizonte, Brasil · 2016 · Cultural"
+  },
+  {
+   "id": "br-valongo",
+   "tipo": "curiosidade",
+   "titulo": "Cais do Valongo",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Principal porta de entrada de africanos escravizados nas Américas: cerca de 900 mil desembarcaram ali.",
+   "destaques": [
+    "Redescoberto em 2011 nas obras do porto",
+    "Lugar de memória da Pequena África"
+   ],
+   "detalhe": "Rio de Janeiro, Brasil · 2017 · Cultural"
+  },
+  {
+   "id": "br-paraty",
+   "tipo": "curiosidade",
+   "titulo": "Paraty e Ilha Grande",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeiro patrimônio misto do Brasil: cultura caiçara, quilombola e indígena entre mar e Mata Atlântica.",
+   "destaques": [
+    "Caminho do Ouro",
+    "Festa Literária Internacional (Flip)"
+   ],
+   "detalhe": "Rio de Janeiro, Brasil · 2019 · Misto"
+  },
+  {
+   "id": "br-burle-marx",
+   "tipo": "curiosidade",
+   "titulo": "Sítio Roberto Burle Marx",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "O jardim-laboratório do paisagista que levou plantas nativas para o desenho moderno.",
+   "destaques": [
+    "Mais de 3.500 espécies de plantas",
+    "Casa e ateliê do artista"
+   ],
+   "detalhe": "Rio de Janeiro, Brasil · 2021 · Cultural"
+  },
+  {
+   "id": "br-lencois",
+   "tipo": "curiosidade",
+   "titulo": "Lençóis Maranhenses",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Dunas brancas que, na estação das chuvas, guardam lagoas de água doce azul e verde.",
+   "destaques": [
+    "Lagoas cheias de maio a setembro",
+    "Peixes que sobrevivem enterrados na seca"
+   ],
+   "detalhe": "Maranhão, Brasil · 2024 · Natural"
+  },
+  {
+   "id": "br-peruacu",
+   "tipo": "curiosidade",
+   "titulo": "Cavernas do Peruaçu",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cavernas gigantes com claraboias naturais e pinturas rupestres no norte de Minas.",
+   "destaques": [
+    "Gruta do Janelão",
+    "Patrimônio mais novo do Brasil"
+   ],
+   "detalhe": "Minas Gerais, Brasil · 2025 · Natural"
+  },
+  {
+   "id": "eg-gize",
+   "tipo": "curiosidade",
+   "titulo": "Pirâmides de Gizé",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A Grande Pirâmide foi a construção mais alta feita pelo ser humano por cerca de 3.800 anos.",
+   "destaques": [
+    "Erguida há cerca de 4.500 anos",
+    "Única maravilha antiga ainda de pé"
+   ],
+   "detalhe": "Egito · 1979 · Cultural"
+  },
+  {
+   "id": "eg-tebas",
+   "tipo": "curiosidade",
+   "titulo": "Tebas Antiga (Luxor)",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Templos de Karnak e Luxor e o Vale dos Reis, onde foi achado o túmulo de Tutancâmon.",
+   "destaques": [
+    "Túmulo de Tutancâmon descoberto em 1922",
+    "Salão de 134 colunas em Karnak"
+   ],
+   "detalhe": "Egito · 1979 · Cultural"
+  },
+  {
+   "id": "eg-abu-simbel",
+   "tipo": "curiosidade",
+   "titulo": "Abu Simbel",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Os templos foram cortados em blocos e remontados mais alto nos anos 1960 para escapar da represa de Assuã.",
+   "destaques": [
+    "Duas vezes por ano o sol ilumina o santuário",
+    "Campanha que inspirou a lista da UNESCO"
+   ],
+   "detalhe": "Egito · 1979 · Cultural"
+  },
+  {
+   "id": "eg-wadi-hitan",
+   "tipo": "curiosidade",
+   "titulo": "Vale das Baleias",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "No meio do deserto há fósseis de baleias com patas, que mostram a passagem da terra para o mar.",
+   "destaques": [
+    "Fósseis de cerca de 40 milhões de anos",
+    "Antigo fundo do mar de Tétis"
+   ],
+   "detalhe": "Egito · 2005 · Natural"
+  },
+  {
+   "id": "ma-fez",
+   "tipo": "curiosidade",
+   "titulo": "Medina de Fez",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Labirinto medieval sem carros onde funciona a universidade al-Qarawiyyin, fundada em 859.",
+   "destaques": [
+    "Curtumes de couro a céu aberto",
+    "Mais de 9 mil ruelas"
+   ],
+   "detalhe": "Marrocos · 1981 · Cultural"
+  },
+  {
+   "id": "ma-marrakech",
+   "tipo": "curiosidade",
+   "titulo": "Medina de Marrakech",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A praça Jemaa el-Fna, com contadores de histórias e músicos, também é patrimônio imaterial.",
+   "destaques": [
+    "Mesquita Koutoubia",
+    "Souks e jardins"
+   ],
+   "detalhe": "Marrocos · 1985 · Cultural"
+  },
+  {
+   "id": "ma-ait-ben-haddou",
+   "tipo": "curiosidade",
+   "titulo": "Ksar de Aït-Ben-Haddou",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Vila fortificada de barro na antiga rota das caravanas, cenário de muitos filmes.",
+   "destaques": [
+    "Arquitetura de taipa amazigh",
+    "Aos pés do Alto Atlas"
+   ],
+   "detalhe": "Marrocos · 1987 · Cultural"
+  },
+  {
+   "id": "tn-cartago",
+   "tipo": "curiosidade",
+   "titulo": "Sítio Arqueológico de Cartago",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Capital da civilização púnica que enfrentou Roma, terra do general Aníbal.",
+   "destaques": [
+    "Portos púnicos circulares",
+    "Termas de Antonino"
+   ],
+   "detalhe": "Tunísia · 1979 · Cultural"
+  },
+  {
+   "id": "tn-el-djem",
+   "tipo": "curiosidade",
+   "titulo": "Anfiteatro de El Djem",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Um dos maiores anfiteatros romanos do mundo, com lugar para cerca de 35 mil pessoas.",
+   "destaques": [
+    "Construído no século III",
+    "Muito bem conservado"
+   ],
+   "detalhe": "Tunísia · 1979 · Cultural"
+  },
+  {
+   "id": "dz-tassili",
+   "tipo": "curiosidade",
+   "titulo": "Tassili n'Ajjer",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Planalto do Saara com milhares de pinturas rupestres que mostram um deserto antes verde.",
+   "destaques": [
+    "Girafas e bois pintados na rocha",
+    "Florestas de pedra esculpidas pelo vento"
+   ],
+   "detalhe": "Argélia · 1982 · Misto"
+  },
+  {
+   "id": "dz-casba",
+   "tipo": "curiosidade",
+   "titulo": "Casbá de Argel",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cidade antiga em degraus sobre o Mediterrâneo, palco da luta pela independência.",
+   "destaques": [
+    "Palácios otomanos",
+    "Cenário do filme A Batalha de Argel"
+   ],
+   "detalhe": "Argélia · 1992 · Cultural"
+  },
+  {
+   "id": "ly-leptis",
+   "tipo": "curiosidade",
+   "titulo": "Leptis Magna",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cidade natal do imperador romano Septímio Severo, uma das mais bem preservadas do Mediterrâneo.",
+   "destaques": [
+    "Arco de Septímio Severo",
+    "Teatro voltado para o mar"
+   ],
+   "detalhe": "Líbia · 1982 · Cultural"
+  },
+  {
+   "id": "sn-goree",
+   "tipo": "curiosidade",
+   "titulo": "Ilha de Gorée",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Símbolo da memória do tráfico atlântico, com a Casa dos Escravos e sua Porta do Não Retorno.",
+   "destaques": [
+    "Entre os primeiros patrimônios mundiais",
+    "Visitada por Mandela e Obama"
+   ],
+   "detalhe": "Senegal · 1978 · Cultural"
+  },
+  {
+   "id": "sn-saint-louis",
+   "tipo": "curiosidade",
+   "titulo": "Ilha de Saint-Louis",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Antiga capital da África Ocidental Francesa, ligada ao continente pela ponte Faidherbe.",
+   "destaques": [
+    "Festival de jazz",
+    "Bairro de pescadores de Guet Ndar"
+   ],
+   "detalhe": "Senegal · 2000 · Cultural"
+  },
+  {
+   "id": "sn-djoudj",
+   "tipo": "curiosidade",
+   "titulo": "Parque Nacional dos Pássaros do Djoudj",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Refúgio de cerca de 1,5 milhão de aves que atravessam o Saara todo ano.",
+   "destaques": [
+    "Pelicanos e flamingos",
+    "No delta do rio Senegal"
+   ],
+   "detalhe": "Senegal · 1981 · Natural"
+  },
+  {
+   "id": "ml-djenne",
+   "tipo": "curiosidade",
+   "titulo": "Djenné",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A Grande Mesquita é a maior construção de adobe do mundo e ganha reboco novo a cada ano.",
+   "destaques": [
+    "Festa do Crépissage",
+    "Cidade habitada há mais de 2 mil anos"
+   ],
+   "detalhe": "Mali · 1988 · Cultural"
+  },
+  {
+   "id": "ml-tombuctu",
+   "tipo": "curiosidade",
+   "titulo": "Tombuctu",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Centro de saber dos séculos XV e XVI, guarda manuscritos de astronomia, direito e medicina.",
+   "destaques": [
+    "Mesquita de Djinguereber",
+    "Mausoléus reconstruídos após 2012"
+   ],
+   "detalhe": "Mali · 1988 · Cultural"
+  },
+  {
+   "id": "ml-bandiagara",
+   "tipo": "curiosidade",
+   "titulo": "Falésia de Bandiagara",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Aldeias dogon encravadas num paredão de 150 km, com celeiros de teto de palha.",
+   "destaques": [
+    "Máscaras e danças dogon",
+    "Antigas moradias tellem na rocha"
+   ],
+   "detalhe": "Mali · 1989 · Misto"
+  },
+  {
+   "id": "bj-abome",
+   "tipo": "curiosidade",
+   "titulo": "Palácios Reais de Abomé",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Sede do reino do Daomé, com baixos-relevos que contam a história de seus reis.",
+   "destaques": [
+    "Reino das guerreiras agojie",
+    "Elo histórico com a Bahia"
+   ],
+   "detalhe": "Benin · 1985 · Cultural"
+  },
+  {
+   "id": "tg-koutammakou",
+   "tipo": "curiosidade",
+   "titulo": "Koutammakou",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Terra dos Batammariba, famosos pelas casas-torre de barro chamadas takienta.",
+   "destaques": [
+    "Casas que parecem pequenos castelos",
+    "O mesmo povo vive também no Benin"
+   ],
+   "detalhe": "Togo · 2004 · Cultural"
+  },
+  {
+   "id": "ng-osun",
+   "tipo": "curiosidade",
+   "titulo": "Bosque Sagrado de Osun-Osogbo",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Floresta sagrada dedicada a Oxum, a orixá das águas doces tão cultuada no Brasil.",
+   "destaques": [
+    "Esculturas de Susanne Wenger",
+    "Festival de Osun em agosto"
+   ],
+   "detalhe": "Nigéria · 2005 · Cultural"
+  },
+  {
+   "id": "gh-castelos",
+   "tipo": "curiosidade",
+   "titulo": "Fortes e Castelos de Gana",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Fortalezas europeias do litoral, como Cape Coast e Elmina, ligadas ao tráfico atlântico.",
+   "destaques": [
+    "Elmina, de 1482",
+    "Porta do Não Retorno em Cape Coast"
+   ],
+   "detalhe": "Gana · 1979 · Cultural"
+  },
+  {
+   "id": "ci-grand-bassam",
+   "tipo": "curiosidade",
+   "titulo": "Grand-Bassam",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira capital colonial do país, com casarões entre a lagoa e o oceano.",
+   "destaques": [
+    "Festa do Abissa, do povo N'zima",
+    "Praias perto de Abidjan"
+   ],
+   "detalhe": "Costa do Marfim · 2012 · Cultural"
+  },
+  {
+   "id": "cv-cidade-velha",
+   "tipo": "curiosidade",
+   "titulo": "Cidade Velha",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Primeira cidade colonial europeia nos trópicos, fundada no século XV.",
+   "destaques": [
+    "Pelourinho de 1520",
+    "Berço da cultura crioula"
+   ],
+   "detalhe": "Ilha de Santiago, Cabo Verde · 2009 · Cultural"
+  },
+  {
+   "id": "gm-kunta-kinteh",
+   "tipo": "curiosidade",
+   "titulo": "Ilha de Kunta Kinteh",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Ilhota no rio Gâmbia rebatizada em homenagem ao personagem do livro Raízes.",
+   "destaques": [
+    "Ruínas de forte do século XVII",
+    "Rota da memória da escravidão"
+   ],
+   "detalhe": "Gâmbia · 2003 · Cultural"
+  },
+  {
+   "id": "ne-agadez",
+   "tipo": "curiosidade",
+   "titulo": "Centro Histórico de Agadez",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Porta do Saara, com um minarete de barro de 27 metros, o mais alto do mundo nesse material.",
+   "destaques": [
+    "Cidade tuaregue das caravanas",
+    "Arquitetura de terra"
+   ],
+   "detalhe": "Níger · 2013 · Cultural"
+  },
+  {
+   "id": "cd-virunga",
+   "tipo": "curiosidade",
+   "titulo": "Parque Nacional de Virunga",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Parque mais antigo da África, com gorilas-das-montanhas e vulcões ativos.",
+   "destaques": [
+    "Criado em 1925",
+    "Lago de lava do Nyiragongo"
+   ],
+   "detalhe": "República Democrática do Congo · 1979 · Natural"
+  },
+  {
+   "id": "cd-okapi",
+   "tipo": "curiosidade",
+   "titulo": "Reserva de Fauna de Okapis",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Floresta do Ituri que protege o ocapi, parente da girafa que só existe no Congo.",
+   "destaques": [
+    "Povo Mbuti da floresta",
+    "Grande diversidade de primatas"
+   ],
+   "detalhe": "República Democrática do Congo · 1996 · Natural"
+  },
+  {
+   "id": "ga-lope",
+   "tipo": "curiosidade",
+   "titulo": "Lopé-Okanda",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Floresta e savana com gravuras rupestres e uma das maiores populações de mandris.",
+   "destaques": [
+    "Mais de 1.800 petróglifos",
+    "Elefantes da floresta"
+   ],
+   "detalhe": "Gabão · 2007 · Misto"
+  },
+  {
+   "id": "td-ennedi",
+   "tipo": "curiosidade",
+   "titulo": "Maciço do Ennedi",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Arcos de pedra esculpidos pelo vento no Saara e pinturas rupestres de camelos e bois.",
+   "destaques": [
+    "Arco de Aloba, com 120 m de altura",
+    "Camelos no guelta de Archei"
+   ],
+   "detalhe": "Chade · 2016 · Misto"
+  },
+  {
+   "id": "ao-mbanza-kongo",
+   "tipo": "curiosidade",
+   "titulo": "Mbanza Kongo",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Capital do antigo Reino do Kongo, um dos maiores da África Central.",
+   "destaques": [
+    "Primeiro patrimônio mundial de Angola",
+    "Raízes de muitos afro-brasileiros"
+   ],
+   "detalhe": "Angola · 2017 · Cultural"
+  },
+  {
+   "id": "et-lalibela",
+   "tipo": "curiosidade",
+   "titulo": "Igrejas de Lalibela",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Onze igrejas medievais escavadas de cima para baixo num único bloco de rocha.",
+   "destaques": [
+    "Igreja de São Jorge em forma de cruz",
+    "Peregrinações no Natal etíope"
+   ],
+   "detalhe": "Etiópia · 1978 · Cultural"
+  },
+  {
+   "id": "et-aksum",
+   "tipo": "curiosidade",
+   "titulo": "Aksum",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Capital de um império antigo, com obeliscos de pedra de mais de 20 metros.",
+   "destaques": [
+    "Obelisco devolvido pela Itália em 2005",
+    "Tradição da Arca da Aliança"
+   ],
+   "detalhe": "Etiópia · 1980 · Cultural"
+  },
+  {
+   "id": "et-awash",
+   "tipo": "curiosidade",
+   "titulo": "Vale do Baixo Awash",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Onde foi achada Lucy, esqueleto de 3,2 milhões de anos de um ancestral humano.",
+   "destaques": [
+    "Descoberta em 1974",
+    "Na Etiópia ela é chamada Dinkinesh"
+   ],
+   "detalhe": "Etiópia · 1980 · Cultural"
+  },
+  {
+   "id": "er-asmara",
+   "tipo": "curiosidade",
+   "titulo": "Asmara",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cidade modernista africana, com cinemas e postos de gasolina art déco dos anos 1930.",
+   "destaques": [
+    "Posto Fiat Tagliero em forma de avião",
+    "A 2.300 m de altitude"
+   ],
+   "detalhe": "Eritreia · 2017 · Cultural"
+  },
+  {
+   "id": "tz-serengueti",
+   "tipo": "curiosidade",
+   "titulo": "Parque Nacional do Serengueti",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Palco da grande migração de mais de um milhão de gnus, zebras e gazelas.",
+   "destaques": [
+    "Leões, leopardos e guepardos",
+    "Planícies sem fim"
+   ],
+   "detalhe": "Tanzânia · 1981 · Natural"
+  },
+  {
+   "id": "tz-kilimanjaro",
+   "tipo": "curiosidade",
+   "titulo": "Monte Kilimanjaro",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Com 5.895 m, é a montanha isolada mais alta do mundo e o teto da África.",
+   "destaques": [
+    "Neve perto da linha do Equador",
+    "Cinco zonas climáticas na subida"
+   ],
+   "detalhe": "Tanzânia · 1987 · Natural"
+  },
+  {
+   "id": "tz-zanzibar",
+   "tipo": "curiosidade",
+   "titulo": "Cidade de Pedra de Zanzibar",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Encontro de culturas suaíli, árabe, indiana e europeia, com portas de madeira entalhada.",
+   "destaques": [
+    "Terra natal de Freddie Mercury",
+    "Antigo mercado de especiarias"
+   ],
+   "detalhe": "Tanzânia · 2000 · Cultural"
+  },
+  {
+   "id": "tz-ngorongoro",
+   "tipo": "curiosidade",
+   "titulo": "Cratera de Ngorongoro",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Caldeira vulcânica gigante onde vivem leões, elefantes e rinocerontes-negros.",
+   "destaques": [
+    "Pegadas de Laetoli, de 3,6 milhões de anos",
+    "Pastores maasai"
+   ],
+   "detalhe": "Tanzânia · 1979 · Misto"
+  },
+  {
+   "id": "ke-lamu",
+   "tipo": "curiosidade",
+   "titulo": "Cidade Velha de Lamu",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Mais antigo povoado suaíli ainda habitado, onde o transporte é feito por burros e barcos.",
+   "destaques": [
+    "Barcos dhow",
+    "Festival de Maulidi"
+   ],
+   "detalhe": "Quênia · 2001 · Cultural"
+  },
+  {
+   "id": "ke-turkana",
+   "tipo": "curiosidade",
+   "titulo": "Parques do Lago Turkana",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "O maior lago de deserto do mundo, rico em fósseis de ancestrais humanos.",
+   "destaques": [
+    "Chamado de Mar de Jade",
+    "Ilhas com ninhais de crocodilos-do-nilo"
+   ],
+   "detalhe": "Quênia · 1997 · Natural"
+  },
+  {
+   "id": "ug-bwindi",
+   "tipo": "curiosidade",
+   "titulo": "Floresta Impenetrável de Bwindi",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Abriga perto de metade dos gorilas-das-montanhas do planeta.",
+   "destaques": [
+    "Floresta com mais de 25 mil anos",
+    "Caminhadas para ver gorilas"
+   ],
+   "detalhe": "Uganda · 1994 · Natural"
+  },
+  {
+   "id": "ug-kasubi",
+   "tipo": "curiosidade",
+   "titulo": "Túmulos dos Reis de Buganda em Kasubi",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Grande casa de palha onde estão sepultados quatro reis (kabakas) de Buganda.",
+   "destaques": [
+    "Reconstruída após incêndio em 2010",
+    "Arquitetura de juncos e madeira"
+   ],
+   "detalhe": "Uganda · 2001 · Cultural"
+  },
+  {
+   "id": "rw-memoriais",
+   "tipo": "curiosidade",
+   "titulo": "Memoriais do Genocídio",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Quatro lugares de memória do genocídio contra os tutsis de 1994: Nyamata, Murambi, Gisozi e Bisesero.",
+   "destaques": [
+    "Memória para que nunca se repita",
+    "Inscritos em 2023"
+   ],
+   "detalhe": "Ruanda · 2023 · Cultural"
+  },
+  {
+   "id": "zw-grande-zimbabue",
+   "tipo": "curiosidade",
+   "titulo": "Grande Zimbábue",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cidade de pedra erguida sem argamassa entre os séculos XI e XV; deu nome ao país.",
+   "destaques": [
+    "Muralha de até 11 m de altura",
+    "Pássaro de pedra virou símbolo nacional"
+   ],
+   "detalhe": "Zimbábue · 1986 · Cultural"
+  },
+  {
+   "id": "zm-mosi-oa-tunya",
+   "tipo": "curiosidade",
+   "titulo": "Cataratas Vitória (Mosi-oa-Tunya)",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "A 'fumaça que troveja' forma a maior cortina de água em queda do mundo.",
+   "destaques": [
+    "1.708 m de largura",
+    "Arco-íris lunar nas noites de lua cheia"
+   ],
+   "detalhe": "Zâmbia e Zimbábue · 1989 · Natural"
+  },
+  {
+   "id": "mz-ilha",
+   "tipo": "curiosidade",
+   "titulo": "Ilha de Moçambique",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Antiga capital da colônia, onde convivem a cidade de pedra e cal e a cidade de macuti.",
+   "destaques": [
+    "Capela de Nossa Senhora do Baluarte, de 1522",
+    "Nome que batizou o país"
+   ],
+   "detalhe": "Moçambique · 1991 · Cultural"
+  },
+  {
+   "id": "bw-okavango",
+   "tipo": "curiosidade",
+   "titulo": "Delta do Okavango",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Rio que deságua no deserto do Kalahari, criando um oásis gigante a cada inverno.",
+   "destaques": [
+    "Passeios de mokoro, a canoa local",
+    "Elefantes, hipopótamos e leões"
+   ],
+   "detalhe": "Botsuana · 2014 · Natural"
+  },
+  {
+   "id": "na-namibe",
+   "tipo": "curiosidade",
+   "titulo": "Mar de Areia do Namibe",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Dunas de até 300 m no deserto costeiro mais antigo do mundo, molhado só pela neblina.",
+   "destaques": [
+    "Sossusvlei e Deadvlei",
+    "Besouros que bebem a neblina"
+   ],
+   "detalhe": "Namíbia · 2013 · Natural"
+  },
+  {
+   "id": "za-robben",
+   "tipo": "curiosidade",
+   "titulo": "Ilha Robben",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Prisão onde Nelson Mandela passou 18 dos seus 27 anos encarcerado.",
+   "destaques": [
+    "Guias que foram ex-presos políticos",
+    "Vista para a Cidade do Cabo"
+   ],
+   "detalhe": "África do Sul · 1999 · Cultural"
+  },
+  {
+   "id": "za-berco",
+   "tipo": "curiosidade",
+   "titulo": "Berço da Humanidade",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Cavernas de Sterkfontein, onde foram achados fósseis como Mrs. Ples e Little Foot.",
+   "destaques": [
+    "Cerca de 40% dos fósseis de hominídeos conhecidos",
+    "Homo naledi, descoberto em 2013"
+   ],
+   "detalhe": "África do Sul · 1999 · Cultural"
+  },
+  {
+   "id": "za-drakensberg",
+   "tipo": "curiosidade",
+   "titulo": "Maloti-Drakensberg",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Montanhas com a maior concentração de pinturas rupestres do povo San.",
+   "destaques": [
+    "Anfiteatro de Drakensberg",
+    "Estendido ao Lesoto em 2013"
+   ],
+   "detalhe": "África do Sul e Lesoto · 2000 · Misto"
+  },
+  {
+   "id": "za-mandela",
+   "tipo": "curiosidade",
+   "titulo": "Lugares do Legado de Mandela",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Lugares ligados à luta contra o apartheid e à reconciliação, como os Union Buildings, em Pretória.",
+   "destaques": [
+    "Inscritos em 2024",
+    "Direitos humanos e libertação"
+   ],
+   "detalhe": "África do Sul · 2024 · Cultural"
+  },
+  {
+   "id": "mu-le-morne",
+   "tipo": "curiosidade",
+   "titulo": "Le Morne",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Montanha que serviu de refúgio a escravizados fugidos, símbolo da resistência.",
+   "destaques": [
+    "Os fugitivos eram chamados de marrons",
+    "Lagoa de águas turquesa"
+   ],
+   "detalhe": "Maurício · 2008 · Cultural"
+  },
+  {
+   "id": "sc-vallee-de-mai",
+   "tipo": "curiosidade",
+   "titulo": "Vallée de Mai",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Floresta de palmeiras onde cresce o coco-de-mer, a maior semente do mundo.",
+   "destaques": [
+    "Sementes de até 18 kg",
+    "Papagaio-negro das Seychelles"
+   ],
+   "detalhe": "Seychelles · 1983 · Natural"
+  },
+  {
+   "id": "mg-tsingy",
+   "tipo": "curiosidade",
+   "titulo": "Tsingy de Bemaraha",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Floresta de pedra calcária afiada como lâminas, onde vivem lêmures.",
+   "destaques": [
+    "Pontes suspensas entre as agulhas",
+    "Espécies que só existem ali"
+   ],
+   "detalhe": "Madagascar · 1990 · Natural"
+  },
+  {
+   "id": "mw-lago-malawi",
+   "tipo": "curiosidade",
+   "titulo": "Parque Nacional do Lago Malawi",
+   "serie": "Patrimônio Mundial",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Protege centenas de espécies de ciclídeos coloridos que só existem nesse lago.",
+   "destaques": [
+    "Águas transparentes",
+    "Mergulho com peixes únicos"
+   ],
+   "detalhe": "Malawi · 1984 · Natural"
+  },
+  {
+   "id": "top10-africa-do-sul-2025",
+   "tipo": "top10",
+   "titulo": "Top 10 África do Sul 2025",
+   "serie": "Top 10 AfriMosa",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "As músicas mais ouvidas no Spotify na África do Sul em 2025",
+   "fontes": [
+    "Spotify Wrapped 2025, via Music In Africa"
+   ]
+  },
+  {
+   "id": "top10-africa-2025",
+   "tipo": "top10",
+   "titulo": "Os nº 1 da África em 2025",
+   "serie": "Top 10 AfriMosa",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "Os sucessos mais ouvidos do ano em cada país",
+   "fontes": [
+    "Spotify Wrapped 2025 e Boomplay 2025 (Campaign ME, Music In Africa, VON, UG Business, Le Matin, News Ghana, OkayAfrica, Chic Infos)"
+   ]
+  },
+  {
+   "id": "top10-brasil-2025",
+   "tipo": "top10",
+   "titulo": "Top 10 Brasil 2025",
+   "serie": "Top 10 AfriMosa",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "As músicas mais ouvidas no Spotify no Brasil em 2025",
+   "fontes": [
+    "Spotify Wrapped 2025, via NSC Total"
+   ]
+  },
+  {
+   "id": "top10-quenia-2025",
+   "tipo": "top10",
+   "titulo": "Top 10 Quênia 2025",
+   "serie": "Top 10 AfriMosa",
+   "status": "roteiro",
+   "origem": "programa",
+   "texto": "As músicas quenianas mais ouvidas no Spotify no Quênia em 2025",
+   "fontes": [
+    "Spotify Wrapped 2025, via Music In Africa"
+   ]
+  }
+ ],
+ "prompts": [
+  {
+   "id": "ps-iniciar",
+   "categoria": "powershell",
+   "titulo": "Abrir a pasta do programa",
+   "texto": "cd C:\\AfriMosaTV\\afrimosa-tv",
+   "tags": [
+    "rotina"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-obs",
+   "categoria": "powershell",
+   "titulo": "Ligar o controlador do OBS (programação normal)",
+   "texto": "python -m afrimosa obs",
+   "tags": [
+    "no ar"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-obs-estreia",
+   "categoria": "powershell",
+   "titulo": "Ligar só a contagem da estreia em laço",
+   "texto": "python -m afrimosa obs --so-estreia",
+   "tags": [
+    "no ar"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-rep-lista",
+   "categoria": "powershell",
+   "titulo": "Reportagens: listar episódios",
+   "texto": "python -m afrimosa reportagens lista",
+   "tags": [
+    "reportagem"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-rep-roteiro",
+   "categoria": "powershell",
+   "titulo": "Reportagens: ver o roteiro (texto da narração)",
+   "texto": "python -m afrimosa reportagens roteiro {id}",
+   "tags": [
+    "reportagem"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-rep-midia",
+   "categoria": "powershell",
+   "titulo": "Reportagens: baixar fotos livres da Wikimedia",
+   "texto": "python -m afrimosa reportagens midia {id}",
+   "tags": [
+    "reportagem"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-rep-foto",
+   "categoria": "powershell",
+   "titulo": "Reportagens: inserir foto/vídeo seu num capítulo",
+   "texto": "python -m afrimosa reportagens foto {id} {capitulo} --local \"{caminho}\" --autor \"{autor}\" --fonte \"{fonte}\"",
+   "tags": [
+    "reportagem"
+   ],
+   "nota": "Use 'capa' no lugar do número para a capa. Acrescente --ia se a imagem for gerada por IA."
+  },
+  {
+   "id": "ps-rep-previa",
+   "categoria": "powershell",
+   "titulo": "Reportagens: gerar a prévia",
+   "texto": "python -m afrimosa reportagens previa {id}",
+   "tags": [
+    "reportagem"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-rep-aprovar",
+   "categoria": "powershell",
+   "titulo": "Reportagens: aprovar para o ar",
+   "texto": "python -m afrimosa reportagens aprovar {id}",
+   "tags": [
+    "reportagem"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-soc-rep",
+   "categoria": "powershell",
+   "titulo": "Redes: reels + vertical + carrossel da reportagem",
+   "texto": "python -m afrimosa social reportagem {id}",
+   "tags": [
+    "redes"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-soc-car",
+   "categoria": "powershell",
+   "titulo": "Redes: só o carrossel",
+   "texto": "python -m afrimosa social reportagem {id} --so carrossel",
+   "tags": [
+    "redes"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-soc-reels",
+   "categoria": "powershell",
+   "titulo": "Redes: só os reels por capítulo",
+   "texto": "python -m afrimosa social reportagem {id} --so reels",
+   "tags": [
+    "redes"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-soc-lin",
+   "categoria": "powershell",
+   "titulo": "Redes: lição de línguas",
+   "texto": "python -m afrimosa social linguas {lingua} {licao}",
+   "tags": [
+    "redes",
+    "línguas"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-soc-cur",
+   "categoria": "powershell",
+   "titulo": "Redes: curiosidades do dia",
+   "texto": "python -m afrimosa social curiosidades",
+   "tags": [
+    "redes"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-lin-lista",
+   "categoria": "powershell",
+   "titulo": "Línguas: situação das lições",
+   "texto": "python -m afrimosa linguas lista",
+   "tags": [
+    "línguas"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-lin-curso",
+   "categoria": "powershell",
+   "titulo": "Línguas: ler as palavras de uma língua",
+   "texto": "python -m afrimosa linguas curso {lingua}",
+   "tags": [
+    "línguas"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-lin-previa",
+   "categoria": "powershell",
+   "titulo": "Línguas: prévia de uma lição",
+   "texto": "python -m afrimosa linguas previa {lingua} {licao}",
+   "tags": [
+    "línguas"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-lin-aprovar",
+   "categoria": "powershell",
+   "titulo": "Línguas: aprovar lições",
+   "texto": "python -m afrimosa linguas aprovar {lingua} {licao}",
+   "tags": [
+    "línguas"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-limpar",
+   "categoria": "powershell",
+   "titulo": "Liberar espaço em disco (ver antes)",
+   "texto": "python -m afrimosa limpar --previas --simular",
+   "tags": [
+    "manutenção"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-limpar-ok",
+   "categoria": "powershell",
+   "titulo": "Liberar espaço em disco (apagar)",
+   "texto": "python -m afrimosa limpar --previas",
+   "tags": [
+    "manutenção"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "ps-plataforma",
+   "categoria": "powershell",
+   "titulo": "Atualizar os dados desta plataforma",
+   "texto": "python -m afrimosa plataforma exportar --destino C:\\AfriMosaTV\\afrimosa-plataforma\\data\\canal.json",
+   "tags": [
+    "plataforma"
+   ],
+   "nota": "Depois, envie o canal.json para o GitHub (veja o README da plataforma)."
+  },
+  {
+   "id": "nar-config",
+   "categoria": "narracao",
+   "titulo": "Configuração da voz (ElevenLabs no Runway)",
+   "texto": "ABERTURA    Speed 0.90 · Consistency 60% · Expression 45%\nCAPÍTULOS   Speed 0.95 · Consistency 65% · Expression 30%\nFECHAMENTO  Speed 0.90 · Consistency 65% · Expression 35%\nMesma voz em todas as partes. Números e datas por extenso. Reticências e linhas em branco = pausas.",
+   "tags": [
+    "voz"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "nar-abertura",
+   "categoria": "narracao",
+   "titulo": "Modelo de abertura",
+   "texto": "{serie}.\n\n{titulo}...\n\n{frase_abertura}",
+   "tags": [
+    "voz"
+   ],
+   "nota": "Salve como dados\\reportagens\\narracao\\{id}\\abertura.mp3"
+  },
+  {
+   "id": "nar-fechamento",
+   "categoria": "narracao",
+   "titulo": "Modelo de fechamento",
+   "texto": "Esta foi a série {serie}.\n\nAté o próximo episódio, aqui na AfriMosa TV... África e Brasil, culturas que se encontram.",
+   "tags": [
+    "voz"
+   ],
+   "nota": "Salve como dados\\reportagens\\narracao\\{id}\\fechamento.mp3"
+  },
+  {
+   "id": "nar-pronuncia",
+   "categoria": "narracao",
+   "titulo": "Grafias de apoio para pronúncia",
+   "texto": "Kinshasa → Quinchassa · Foreman → Fórman · Mobutu → Mobútu · boma ye → bôma iê · Zaire → Zaíre\nCésaire → Sezér · Senghor → Sengór · Lumumba → Lumúmba · Grand Kallé → Grã Kalê\nSosso-Bala → Sôsso Bála · likembe → likêmbe · Gelede → Gueledê · Mwana Pwo → Muána Pô · Kasai → Kassái",
+   "tags": [
+    "voz"
+   ],
+   "nota": "Use só quando a voz errar com a grafia original."
+  },
+  {
+   "id": "vid-modelo-texto",
+   "categoria": "video",
+   "titulo": "Modelo: cena só por texto (Gen-4.5)",
+   "texto": "SCENE: {cena}\nCAMERA: {camera}\nLIGHT & COLOR: {luz}\nSOUND: {som}, no music\nSTYLE: cinematic documentary, photorealistic, 16:9, no text, no logos, no watermarks, no recognizable faces",
+   "tags": [
+    "runway"
+   ],
+   "nota": "Marque o vídeo como conteúdo alterado/sintético no YouTube."
+  },
+  {
+   "id": "vid-modelo-foto",
+   "categoria": "video",
+   "titulo": "Modelo: animar uma foto livre (imagem para vídeo)",
+   "texto": "Animate this photo with subtle, realistic motion: {movimento}.\nKeep the subject exactly as in the photo: do not change its shape, colors, patterns, carvings or proportions. Do not add objects or people.\nCAMERA: {camera}.\nSOUND: {som}, no music, no voice.\nNo text, no logos, no watermarks.",
+   "tags": [
+    "runway"
+   ],
+   "nota": "Só fotos CC0, domínio público, CC BY ou CC BY-SA. Pessoas reais: deixe a foto parada."
+  },
+  {
+   "id": "vid-estadio",
+   "categoria": "video",
+   "titulo": "Cena: estádio à noite, anos 1970",
+   "texto": "SCENE: An empty open-air stadium in a tropical African city at night, 1974 atmosphere, a boxing ring in the center, humid air, insects around floodlights\nCAMERA: slow crane down from the floodlights to the ring\nLIGHT & COLOR: warm tungsten floodlights, deep blue night, light film grain\nSOUND: distant crowd murmur building slowly, crickets, wind, floodlight hum, no music\nSTYLE: cinematic documentary, photorealistic, 16:9, no text, no logos, no recognizable faces",
+   "tags": [
+    "runway",
+    "rep-rumble"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "vid-fogueira",
+   "categoria": "video",
+   "titulo": "Cena: roda de histórias sob o baobá",
+   "texto": "SCENE: A campfire under a giant baobab at night, sparks rising to a starry sky, silhouettes of listeners from behind\nCAMERA: slow push-in toward the fire\nSOUND: crackling fire, crickets, a soft hum of voices, an owl, no music\nSTYLE: cinematic, 16:9, silhouettes only, no text",
+   "tags": [
+    "runway",
+    "contos"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "red-legenda",
+   "categoria": "redes",
+   "titulo": "Legenda de reel (modelo)",
+   "texto": "{titulo} · Parte {parte}/{total}\n\n{gancho}\n\nEpisódio completo na AfriMosa TV, no YouTube, 24 horas por dia.\nImagens: {creditos}\n\n#AfriMosaTV #África #CulturaAfricana #ÁfricaEBrasil #HistóriaDaÁfrica",
+   "tags": [
+    "instagram",
+    "tiktok"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "red-comunidade",
+   "categoria": "redes",
+   "titulo": "Post da aba Comunidade do YouTube",
+   "texto": "🎙️ Nova mini-reportagem no ar: {titulo}\n{pergunta_para_o_publico}\nResponda nos comentários: o melhor comentário aparece na tela da live!",
+   "tags": [
+    "youtube"
+   ],
+   "nota": ""
+  },
+  {
+   "id": "rot-reportagem",
+   "categoria": "roteiro",
+   "titulo": "Pedir um roteiro novo de mini-reportagem",
+   "texto": "Escreva um roteiro de mini-reportagem para a AfriMosa TV (canal brasileiro sobre música e cultura da África francófona).\nTema: {tema}\nSérie: {serie}\nFormato YAML, exatamente assim:\n- id: rep-{slug}\n  titulo: \"...\"\n  capa: {wiki: ...}\n  abertura: \"uma frase de impacto, até 15 palavras\"\n  capitulos:\n    - titulo: ...           (4 capítulos)\n      imagem: {wiki: artigo da Wikipédia em inglês com foto livre}\n      texto: >-\n        55 a 70 palavras, frases curtas, fatos verificáveis, sem adjetivos exagerados\n  fontes:\n    - {nome: \"...\", link: \"https://...\"}\nRegras: só fatos com fonte; datas e números corretos; nada de letras de música; pessoas vivas tratadas com cuidado;\núltimo capítulo liga o tema ao Brasil quando houver ligação real.",
+   "tags": [
+    "ia",
+    "reportagem"
+   ],
+   "nota": "Revise cada fato antes de colar em dados\\reportagens\\minhas.yaml."
+  },
+  {
+   "id": "rot-licao",
+   "categoria": "roteiro",
+   "titulo": "Pedir as 5 palavras de uma lição",
+   "texto": "Para o quadro Línguas da África, liste 5 palavras/expressões em {lingua} sobre o tema \"{tema}\".\nFormato: [como se escreve, pronúncia aproximada para quem fala português, significado em português]\nUse grafia padrão da língua, prefira palavras do dia a dia de {regiao}, e indique a fonte de cada palavra.",
+   "tags": [
+    "ia",
+    "línguas"
+   ],
+   "nota": "Confira com um falante nativo antes de aprovar a lição."
+  },
+  {
+   "id": "rot-titulo-thumb",
+   "categoria": "roteiro",
+   "titulo": "Títulos e miniatura para um vídeo",
+   "texto": "Sugira 5 títulos (até 60 caracteres, com curiosidade e sem caça-clique enganoso) e 3 ideias de miniatura\n(texto de até 4 palavras + imagem principal) para o vídeo: {titulo}. Público: brasileiros curiosos sobre África.",
+   "tags": [
+    "ia",
+    "youtube"
+   ],
+   "nota": ""
+  }
+ ],
+ "agenda": [],
+ "kpis": [],
+ "checklists": {},
+ "metas": {
+  "inscritos_meta": 1000,
+  "horas_meta": 4000,
+  "shorts_meta": 10000000,
+  "inscritos_fan": 500,
+  "horas_fan": 3000,
+  "shorts_fan": 3000000,
+  "prazo_ypp": "2027-01-31",
+  "nota_ypp": "Exigências atuais do Programa de Parcerias do YouTube: 1.000 inscritos + 4.000 horas em 12 meses (ou 10 milhões de visualizações de Shorts em 90 dias). Faixa de apoio dos fãs: 500 inscritos + 3.000 horas (ou 3 milhões de Shorts). Há relatos de que, a partir de 1º/02/2027, o mínimo para canais novos sobe para 8.000 horas ou 20 milhões de Shorts: confirme na Ajuda do YouTube."
+ },
+ "playbook": [
+  {
+   "id": "estrategia",
+   "titulo": "Estratégia do canal",
+   "itens": [
+    "Três pilares fixos: Música (rumba, ndombolo, afrobeat, Top 10), Cultura (reportagens, línguas, curiosidades) e Ponte África–Brasil.",
+    "A live 24h é a vitrine; o crescimento vem dos vídeos e Shorts que levam gente para a live.",
+    "Cada conteúdo nasce em 3 formatos: peça da live, vídeo/Short no YouTube e reel/carrossel nas redes.",
+    "Séries com nome e número de episódio (o público volta para ver o próximo).",
+    "Calendário fixo: o público aprende quando cada quadro sai (ex.: reportagem toda terça e sexta)."
+   ]
+  },
+  {
+   "id": "publicacao",
+   "titulo": "Checklist de cada publicação",
+   "itens": [
+    "Título com curiosidade e palavra-chave no começo (até ~60 caracteres).",
+    "Miniatura legível no celular: 1 rosto/objeto forte, até 4 palavras, cores da marca.",
+    "Os primeiros 30 segundos respondem 'por que assistir isto?'.",
+    "Descrição com resumo, capítulos com minutagem, créditos das imagens e fontes.",
+    "Tela final e card apontando para a live e para o próximo episódio.",
+    "Vídeo em uma playlist da série.",
+    "Rótulo de conteúdo alterado/sintético quando houver IA.",
+    "Reel/Short e carrossel publicados no mesmo dia, com link na bio.",
+    "Responder os primeiros comentários na primeira hora."
+   ]
+  },
+  {
+   "id": "semana",
+   "titulo": "Rotina semanal do gestor",
+   "itens": [
+    "Segunda: revisar números da semana (CTR, retenção, inscritos, horas, Shorts) e escolher 1 ajuste.",
+    "Terça: gravar narrações e gerar prévias dos conteúdos da semana.",
+    "Quarta: aprovar prévias, agendar publicações e posts da Comunidade.",
+    "Quinta: produzir redes (reels, carrosséis) e responder comentários.",
+    "Sexta: planejar roteiros da próxima semana (2 reportagens, 5 lições, 3 curiosidades).",
+    "Todo dia: conferir a live (som, imagem, chat) e aprovar comentários."
+   ]
+  },
+  {
+   "id": "metricas",
+   "titulo": "Métricas que importam",
+   "itens": [
+    "CTR das miniaturas: acompanhe a tendência; abaixo da média do próprio canal, teste outra miniatura.",
+    "Retenção: veja onde o público sai e corrija a abertura dos próximos vídeos.",
+    "Tempo de exibição da live: é o que mais soma horas para a monetização.",
+    "Inscritos por vídeo: quais temas trazem gente nova.",
+    "Visualizações de Shorts em 90 dias (caminho alternativo para a monetização).",
+    "Uma meta por mês, um teste por semana; anote o resultado nesta plataforma."
+   ]
+  },
+  {
+   "id": "monetizacao",
+   "titulo": "Caminho da monetização",
+   "itens": [
+    "Fase 1 (0–500): constância, Shorts diários e lives com chat ativo.",
+    "Fase 2 (500 + 3.000 h ou 3 mi de Shorts): Super Chat, membros do canal e Super Thanks.",
+    "Fase 3 (Programa de Parcerias completo): receita de anúncios; buscar a meta antes de 01/02/2027.",
+    "Fase 4: patrocínios culturais (editais, embaixadas, festivais), parcerias com artistas e produtoras, licenciamento das reportagens.",
+    "Diversificar: cursos de línguas, produtos da marca (padrões kuba), eventos e playlists patrocinadas."
+   ]
+  },
+  {
+   "id": "riscos",
+   "titulo": "Riscos e políticas (não pule)",
+   "itens": [
+    "Direitos autorais: só música com licença ou autorização por escrito; crédito não é autorização.",
+    "Conteúdo reutilizado/repetitivo: canais 24h automatizados podem ser recusados na monetização. Mostre valor original: narração própria, roteiro próprio, curadoria e comentários.",
+    "IA: marcar conteúdo alterado/sintético; nunca simular pessoas reais.",
+    "Vozes clonadas só com autorização escrita do dono da voz.",
+    "Fatos verificados e fontes citadas em todas as reportagens.",
+    "Chaves de transmissão e da API nunca em prints, arquivos ou nesta plataforma."
+   ]
+  }
+ ]
+}

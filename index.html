@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AfriMosa TV · África e Brasil, culturas que se encontram</title>
+  <meta name="description" content="AfriMosa TV: canal 24 horas de música e cultura da África francófona para o Brasil. Rumba, ndombolo, reportagens, línguas africanas e muito mais.">
+  <meta property="og:title" content="AfriMosa TV">
+  <meta property="og:description" content="Música e cultura africanas, ao vivo, 24 horas por dia.">
+  <meta property="og:image" content="assets/icone.png">
+  <link rel="icon" href="assets/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-in">
+      <a href="#" class="marca"><img src="assets/logo_fundo_escuro.png" alt="AfriMosa TV" width="180" height="40"></a>
+      <nav class="menu" id="menu">
+        <a href="#ao-vivo">Ao vivo</a>
+        <a href="#programacao">Programação</a>
+        <a href="#quadros">Quadros</a>
+        <a href="#reportagens">Reportagens</a>
+        <a href="#linguas">Línguas</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <a class="botao peq" id="btn-youtube" href="#" target="_blank" rel="noopener">Assistir no YouTube</a>
+      <button class="menu-btn" aria-label="Abrir menu" onclick="document.body.classList.toggle('menu-aberto')">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="heroi" id="ao-vivo">
+      <div class="container heroi-in">
+        <div class="heroi-txt">
+          <span class="pilula">Ao vivo · 24 horas</span>
+          <h1>África e Brasil,<br>culturas que se encontram.</h1>
+          <p class="lead">Rumba, ndombolo, afrobeat e as histórias, línguas e tradições da África francófona, para o público brasileiro, sem parar.</p>
+          <div class="acoes">
+            <a class="botao" id="btn-assistir" href="#" target="_blank" rel="noopener">▶ Assistir agora</a>
+            <a class="botao sec" href="#programacao">Ver a programação</a>
+          </div>
+          <div class="agora" id="agora"></div>
+        </div>
+        <div class="heroi-video" id="player"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="programacao">
+      <div class="container">
+        <span class="rotulo">Horário de Brasília</span><div class="fio"></div>
+        <h2>Programação do dia</h2>
+        <p class="muted">A programação gira 24 horas. Entre os blocos: notícias, clima das cidades africanas, curiosidades e a lição de línguas.</p>
+        <div class="linha-tempo" id="linha-tempo"></div>
+        <div class="faixas" id="faixas"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="quadros">
+      <div class="container">
+        <span class="rotulo">No ar</span><div class="fio"></div>
+        <h2>Quadros e programas</h2>
+        <div class="grade-auto" id="lista-quadros"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="reportagens">
+      <div class="container">
+        <span class="rotulo">Mini-reportagens</span><div class="fio"></div>
+        <h2>Histórias que mudaram tudo</h2>
+        <div class="grade-auto" id="lista-reportagens"></div>
+        <div id="em-breve"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="linguas">
+      <div class="container">
+        <span class="rotulo">Línguas da África</span><div class="fio"></div>
+        <h2>5 palavras por dia</h2>
+        <p class="muted">A lição de hoje, em cada língua. A pronúncia entre parênteses é aproximada, escrita para quem fala português.</p>
+        <div class="abas-linguas" id="abas-linguas"></div>
+        <div class="palavras" id="palavras"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="curiosidades">
+      <div class="container">
+        <span class="rotulo">Você sabia?</span><div class="fio"></div>
+        <h2>Curiosidades</h2>
+        <div class="grade-auto" id="lista-curiosidades"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="sobre">
+      <div class="container sobre">
+        <div>
+          <span class="rotulo">Sobre o canal</span><div class="fio"></div>
+          <h2>Uma ponte entre dois continentes</h2>
+          <p>A AfriMosa TV nasceu para aproximar o Brasil da música e da cultura da África francófona: a rumba congolesa que embalou gerações, os ritmos de hoje e as histórias que ligam os dois lados do Atlântico.</p>
+          <p>Cada ponto do nosso mosaico é uma pessoa, um ritmo, uma língua, uma riqueza da terra. Juntos, formam a África que queremos mostrar: diversa, plural e viva.</p>
+        </div>
+        <div class="cartao siga">
+          <h3>Acompanhe</h3>
+          <p class="muted">Curta, siga e compartilhe. Comentários aprovados aparecem na tela da live.</p>
+          <div class="redes" id="redes"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-in">
+      <img src="assets/logo_fundo_escuro.png" alt="AfriMosa TV" width="150" height="33">
+      <span class="muted" id="slogan">África e Brasil, culturas que se encontram.</span>
+      <span class="muted pequeno">Imagens: Wikimedia Commons e acervo próprio, com créditos em cada conteúdo.</span>
+    </div>
+  </footer>
+
+  <script src="assets/publico.js"></script>
+</body>
+</html>
